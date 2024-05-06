@@ -38,10 +38,6 @@ function Empleado() {
   const textStyle = {
     display:
       windowWidth > 1200 || windowWidth < 992 ? "inline" : "none !important",
-  };
-  const textStyle2 = {
-    display:
-      windowWidth > 1200 || windowWidth < 992 ? "inline" : "none !important",
     fontSize: "1rem",
   };
   const images = [
@@ -66,7 +62,7 @@ function Empleado() {
         <h4 className="titulo" style={{ display: "inline" }}>
           Ruka{" "}
         </h4>
-        <p style={{textStyle2}}> oficina de Arquitectura</p>
+        <p style={{textStyle}}> oficina de Arquitectura</p>
         <p style={{ display: "inline" }}> 2013-2015</p>
         <p className="mt-2">
           En este estudio de arquitectura realicé un proyecto, sus pliegos

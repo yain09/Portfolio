@@ -28,7 +28,7 @@ function Cabecera() {
 
   return (
     <Navbar bg="black" data-bs-theme="dark" style={{ height: "50px" }}>
-      <Container className="fluid">
+      <Container className="fluid" >
         <Row className="w-100 d-flex m-0">
           <Col
             xs={2}
@@ -89,7 +89,7 @@ function Cabecera() {
                     )
                   }
                   variant="outline-light"
-                  style={{ height: "35px" }}
+                  style={{ height: "35px", marginRight: "10px" }}
                   className="p-1"
                 >
                   {" "}
