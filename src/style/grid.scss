@@ -471,16 +471,17 @@ a img:hover,
     grid-auto-rows: 86px !important;
   }
   .arq {
-    width: calc((6 * 172px) + (5 * 8.6px));
+    width: calc((6 * 172px) + (5 * 8.6px)) !important;
+    padding-left: 12px !important;
   }
   .gridHome,
   .grid-concursos,
   .grid-empleado,
   .grid-free,
   .grid3d {
-    grid-template-columns: repeat(6, 172px);
-    grid-template-rows: minmax(86px, auto);
-    gap: 8.6px;
+    grid-template-columns: repeat(6, 172px) !important;
+    grid-template-rows: minmax(86px, auto) !important;
+    gap: 8.6px !important;
   }
 }
 
@@ -491,14 +492,15 @@ a img:hover,
     grid-auto-rows: 100px !important;
   }
   .arq {
-    width: calc((6 * 200px) + (5 * 10px));
+    width: calc((6 * 200px) + (5 * 10px)) !important;
+    padding-left: 15px !important;
   }
   .gridHome,
   .grid-concursos,
   .grid-empleado,
   .grid-free,
   .grid3d {
-    grid-template-columns: repeat(6, 200px);
-    grid-template-rows: minmax(100px, auto);
+    grid-template-columns: repeat(6, 200px) !important;
+    grid-template-rows: minmax(100px, auto) !important;
   }
 }
