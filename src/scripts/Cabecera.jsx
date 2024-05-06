@@ -35,7 +35,7 @@ function Cabecera() {
             className="d-flex my-0 align-content-center align-items-center text-start "
           >
             <Nav>
-              <Link to="/">
+              <Link to="/Portfolio">
                 <IoHomeOutline
                   size={30}
                   color={"white"}

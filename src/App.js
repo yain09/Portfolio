@@ -44,7 +44,6 @@ function App() {
       <Cabecera />
       <div className="plus-symbol-background">
       <Routes>
-        <Route path="/" element={<Home />} />
         <Route path="/Portfolio" element={<Home />} />
         <Route path="/model" element={<Model />} />
         <Route path="/freelance" element={<Freelance />} />
