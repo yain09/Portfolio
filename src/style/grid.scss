@@ -1,0 +1,500 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+p {
+  font-family: "Montserrat"
+}
+.fluid.container {
+  height: 50px;
+}
+
+iframe{
+  border-radius: 5px;
+}
+
+.container{
+  justify-content: center;
+}
+.image-gallery,
+.image-gallery-content,
+.image-gallery-slide-wrapper,
+.image-gallery-slides,
+.image-gallery-center,
+.image-gallery-image {
+  height: 100%;
+}
+.image-gallery-image {
+  object-fit: cover !important;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.pieFoto {
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+.titulo {
+  font-size: calc(0.8rem + 0.3vw);
+}
+div p {
+  margin-bottom: 7px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 1;
+}
+.a {
+  color: rgb(194, 7, 69);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.gridHome {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "t1 t1 t2"
+    "t1 t1 t2"
+    "t1 t1 t2"
+    "t3 t3 t3"
+    "t3 t3 t3"
+    "t3 t3 t3"
+    "t7 t4 t4"
+    "t7 t4 t4"
+    "t7 t5 t5"
+    "t7 t5 t5"
+    "t6 t6 t8"
+    "t6 t6 t8";
+}
+.gridHeader {
+  display: flex;
+  justify-content: space-around;
+}
+.grid3d {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto texto texto"
+    "texto texto texto"
+    "videoSF videoSF videoSF"
+    "videoSF videoSF videoSF"
+    "videoSF videoSF videoSF"
+    ". . . "
+    ". . . "
+    "texto2 texto2 texto2"
+    "texto2 texto2 texto2"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "vidtesis vidtesis vidtesis"
+    "vidtesis vidtesis vidtesis"
+    "vidtesis vidtesis vidtesis"
+    ". . . "
+    ". . . "
+    "texto3 youtube youtube"
+    "texto3 youtube youtube"
+    "carousel-2 carousel-2 carousel-2"
+    "carousel-2 carousel-2 carousel-2"
+    "carousel-2 carousel-2 carousel-2";
+}
+.grid-free {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto3 texto3 texto3"
+    "carfree03 carfree03 carfree03"
+    "carfree03 carfree03 carfree03"
+    "carfree03 carfree03 carfree03"
+    ". . ."
+    ". . ."
+    "texto2 texto2 texto2"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    ". . ."
+    ". . ."
+    "texto texto texto"
+    "texto texto texto"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01";
+}
+.grid-empleado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto2 texto2 texto2"
+    "pdf pdf pdf"
+    "pdf pdf pdf"
+    "pdf pdf pdf"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    ". . ."
+    ". . ."
+    "texto texto texto"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01";
+}
+.grid-concursos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto texto texto"
+    "texto texto texto"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    ". . . "
+    ". . . "
+    "texto2 texto2 t2"
+    "texto2 texto2 t2"
+    "texto2 texto2 t2"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    ". . . "
+    ". . . ";
+}
+.hn1 {
+  grid-area: hn1;
+}
+.hn2 {
+  grid-area: hn2;
+}
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8,
+.texto,
+.texto2,
+.texto3,
+.pdf {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.t1,
+.texto,
+.texto2,
+.texto3 {
+  text-align: left;
+  font-size: small;
+  line-height: 120%;
+  padding: 5px;
+}
+.t0 {
+  grid-area: t0;
+  height: 100%;
+}
+.t1 {
+  grid-area: t1;
+}
+.t2 {
+  grid-area: t2;
+}
+.t3 {
+  grid-area: t3;
+}
+.t4 {
+  grid-area: t4;
+}
+.t5 {
+  grid-area: t5;
+}
+.t6 {
+  grid-area: t6;
+}
+.t7 {
+  grid-area: t7;
+}
+.t8 {
+  grid-area: t8;
+}
+a img:hover,
+.miniatura:hover,
+.t3:hover,
+.t4:hover,
+.t5:hover,
+.t7:hover {
+  box-shadow: 0px 0px 10px rgba(7, 7, 7, 0.7);
+}
+.t7 div img :hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.texto {
+  grid-area: texto;
+}
+.texto2 {
+  grid-area: texto2;
+}
+.texto3 {
+  grid-area: texto3;
+}
+.videosf {
+  grid-area: videoSF;
+}
+.videotesis {
+  grid-area: vidtesis;
+}
+.react-player {
+  height: 100%;
+}
+.miniatura {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube {
+  grid-area: youtube;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+.carousel-2 {
+  grid-area: carousel-2;
+}
+.carfree01 {
+  grid-area: carfree01;
+}
+.carfree02 {
+  grid-area: carfree02;
+}
+
+.carfree03 {
+  grid-area: carfree03;
+}
+.pdf {
+  grid-area: pdf;
+  max-width: fit-content;
+}
+.icon {
+  align-self: center;
+}
+
+.yo {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (width > 768px) {
+  .grid,
+  .grid3d,
+  .grid-free {
+    grid-gap: 10px;
+    padding: 12px !important;
+  }
+  iframe,
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5,
+  .t6,
+  .t7,
+  .t8,
+  .texto,
+  .texto2,
+  .texto3,
+  .carousel,
+  img,
+  .carousel-2,
+  .pdf {
+    border-radius: 10px;
+  }
+  .fs-4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .t1,
+  .texto,
+  .texto2,
+  .texto3 {
+    text-align: left;
+    font-size: small;
+    padding: 10px;
+  }
+}
+
+@media (width > 992px) {
+  .gridHome {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "t1 t1 t2 t7 t4 t4"
+      "t1 t1 t2 t7 t4 t4"
+      "t1 t1 t2 t7 t5 t5"
+      "t3 t3 t3 t7 t5 t5"
+      "t3 t3 t3 t6 t6 t8"
+      "t3 t3 t3 t6 t6 t8";
+  }
+  .grid3d {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "carousel carousel carousel carousel texto2 texto2"
+      "carousel carousel carousel carousel texto2 texto2"
+      "carousel carousel carousel carousel vidtesis vidtesis"
+      "carousel carousel carousel carousel vidtesis vidtesis"
+      "texto3 texto3 carousel-2 carousel-2 carousel-2 carousel-2"
+      "texto3 texto3 carousel-2 carousel-2 carousel-2 carousel-2"
+      "youtube youtube carousel-2 carousel-2 carousel-2 carousel-2"
+      "youtube youtube carousel-2 carousel-2 carousel-2 carousel-2";
+  }
+  .grid-free {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01";
+  }
+  .grid-empleado {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto2 texto2 pdf pdf pdf pdf "
+      "texto2 texto2 pdf pdf pdf pdf "
+      "carfree02 carfree02 pdf pdf pdf pdf "
+      "carfree02 carfree02 pdf pdf pdf pdf "
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto";
+  }
+  .grid-concursos {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto texto texto texto2 texto2 t2"
+      "texto texto texto texto2 texto2 t2"
+      "pdf carousel-2 carousel-2 texto2 texto2 t2"
+      "pdf carousel-2 carousel-2 carousel carousel carousel "
+      "pdf carousel-2 carousel-2 carousel carousel carousel"
+      "pdf carousel-2 carousel-2 carousel carousel carousel ";
+  }
+  .pdf {
+    min-width: none;
+  }
+  .t0 {
+    height: auto;
+    width: auto;
+  }
+  .titulo {
+    font-size: calc(0.9rem + 0.3vw);
+    font-weight: 500;
+  }
+  .t1,
+  .texto,
+  .texto2,
+  .texto3 {
+    text-align: left;
+    font-size: small;
+    padding: 15px;
+  }
+}
+
+@media (width > 1200px) {
+  .titulo {
+    font-size: calc(1.25rem + 0.3vw);
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 925px !important;
+    padding: 10px !important;
+    grid-auto-rows: 70px !important;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: minmax(70px, auto);
+    gap: 7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1125px !important;
+    padding: 10px !important;
+    grid-auto-rows: 86px !important;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 172px);
+    grid-template-rows: minmax(86px, auto);
+    gap: 8.6px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px !important;
+    padding: 10px !important;
+    grid-auto-rows: 100px !important;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: minmax(100px, auto);
+  }
+}
