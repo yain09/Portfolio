@@ -23,15 +23,16 @@ function Concurso() {
 
         <p style={{ display: "inline" }}> 2016 </p>
 
-        <p>
+        <p className="mt-2">
           Ganador de la Primera Mención en el Concurso Nacional de Anteproyecto
           Nueva sede CPIC en conjunto con un equipo de 8 personas. En mi caso
           estuve acargo de:
-          <ul>
-            <li> Coordinar las tareas de los participantes.</li>{" "}
-            <li>Producción de planimetrías.</li> <li> Renderizado.</li>
-          </ul>
         </p>
+
+        <ul>
+          <li>Coordinar las tareas de los participantes.</li>{" "}
+          <li>Producción de planimetrías.</li> <li>Renderizado.</li>
+        </ul>
       </div>
 
       <div className="pdf">
@@ -51,7 +52,7 @@ function Concurso() {
           Espacio Escuela{" "}
         </h4>
         <p style={{ display: "inline" }}> 2012</p>
-        <p>
+        <p className="mt-2">
           Primera Mención Concurso de Ideas Espacio Escuela del Seminario
           "Desplazamientos y límites en el espacio educativo. Intersecciones
           entre arquitectura y educación".{" "}

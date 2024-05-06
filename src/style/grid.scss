@@ -1,17 +1,17 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
-p {
-  font-family: "Montserrat"
+p, li {
+  font-family: "Montserrat";
 }
 .fluid.container {
   height: 50px;
 }
 
-iframe{
+iframe {
   border-radius: 5px;
 }
 
-.container{
+.container {
   justify-content: center;
 }
 .image-gallery,
@@ -178,12 +178,7 @@ img {
     ". . . "
     ". . . ";
 }
-.hn1 {
-  grid-area: hn1;
-}
-.hn2 {
-  grid-area: hn2;
-}
+
 .t1,
 .t2,
 .t3,
@@ -209,10 +204,7 @@ img {
   line-height: 120%;
   padding: 5px;
 }
-.t0 {
-  grid-area: t0;
-  height: 100%;
-}
+
 .t1 {
   grid-area: t1;
 }
@@ -308,6 +300,8 @@ a img:hover,
   width: 100%;
   padding: 0px;
   margin: 0px;
+}
+.arq {
 }
 
 @media (width > 768px) {
@@ -455,6 +449,10 @@ a img:hover,
     padding: 10px !important;
     grid-auto-rows: 70px !important;
   }
+  div .arq {
+    width: calc((6 * 140px) + (5 * 7px));
+    padding-left: 12px;
+  }
   .gridHome,
   .grid-concursos,
   .grid-empleado,
@@ -472,6 +470,9 @@ a img:hover,
     padding: 10px !important;
     grid-auto-rows: 86px !important;
   }
+  .arq {
+    width: calc((6 * 172px) + (5 * 8.6px));
+  }
   .gridHome,
   .grid-concursos,
   .grid-empleado,
@@ -488,6 +489,9 @@ a img:hover,
     max-width: 1300px !important;
     padding: 10px !important;
     grid-auto-rows: 100px !important;
+  }
+  .arq {
+    width: calc((6 * 200px) + (5 * 10px));
   }
   .gridHome,
   .grid-concursos,

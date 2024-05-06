@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
@@ -21,6 +22,23 @@ import sj02 from "../img/empleado/sj02.jpg";
 import sj03 from "../img/empleado/sj03.jpg";
 
 function Empleado() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const textStyle = {
+    display:
+      windowWidth > 1200 || windowWidth < 992 ? "inline" : "none !important",
+  };
   const images = [
     ruka01,
     ruka02,
@@ -40,10 +58,15 @@ function Empleado() {
   return (
     <Container className="grid-empleado">
       <div className="texto">
-        <h4 className="titulo" style={{display:"inline"}}>Ruka </h4>
-        <p style={{ fontSize: "1rem", display:"inline"}}> oficina de Arquitectura</p>
-        <p style={{display:"inline"}}> 2013-2015</p>
-        <p>
+        <h4 className="titulo" style={{ display: "inline" }}>
+          Ruka{" "}
+        </h4>
+        <p style={{ fontSize: "1rem" }} style={textStyle}>
+          {" "}
+          oficina de Arquitectura
+        </p>
+        <p style={{ display: "inline" }}> 2013-2015</p>
+        <p className="mt-2">
           En este estudio de arquitectura realicé un proyecto, sus pliegos
           municipales y detalles constructivos para una vividenda en el country
           Aires del Llano de la localidad de Santo Tomé, Santa Fe.
@@ -64,13 +87,17 @@ function Empleado() {
         </Carousel>
       </div>
       <div className="texto2" style={{ height: "100%" }}>
-        <h4 className="titulo" style={{display:"inline"}}>Arq. Doña </h4><p style={{display:"inline"}}> 2019</p>
-        <p>
-          Brindé soporte a profesionales en el desarrollo de
-          proyectos con la confección de esquemas para entrevistas y planos de
-          anteproyecto en el parquizado de la planta modelo de energia fotovoltaica,
-          ubicada en la fabrica de paneles solares de la provincia de San Juan, y sobre
-          los cercos perimetrales para la planta solar de alta tensión.{" "}
+        <h4 className="titulo" style={{ display: "inline" }}>
+          Arq. Doña{" "}
+        </h4>
+        <p style={{ display: "inline" }}> 2019</p>
+
+        <p className="mt-2">
+          En mi rol, proporcioné asistencia a profesionales en el desarrollo de
+          proyectos al crear esquemas para entrevistas y planos de anteproyecto
+          en un parque solar modelo ubicado en la fábrica de paneles solares en
+          San Juan. Además, colaboré en la planificación de los cercos
+          perimetrales para una planta solar de alta tensión.{" "}
         </p>
       </div>
       <div className="carfree02">

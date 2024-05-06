@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import gm01 from "../img/freelance/gm01.jpg";
@@ -33,6 +34,22 @@ import mc05 from "../img/freelance/San Javier/mc05.jpg";
 import mc06 from "../img/freelance/San Javier/mc06.jpg";
 
 function Independiente() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const textStyle = {
+    display: windowWidth > 1200 || windowWidth < 992 ? "block" : "none",
+  };
   const images = [
     gm01,
     gm02,
@@ -66,7 +83,7 @@ function Independiente() {
           Casa L{" "}
         </h4>
         <p style={{ display: "inline" }}> 2015-2018</p>
-        <p>
+        <p className="mt-2">
           Vivienda individual financiada bajo plan de viviendas Pro.Cre.Ar.
           ubicada en la localidad de Arrollo Leyes, de la provincia de Santa Fe.{" "}
         </p>
@@ -107,7 +124,7 @@ function Independiente() {
           Reforma Cocina-Comedor
         </h4>{" "}
         <p style={{ display: "inline" }}> 2022 </p>
-        <p>
+        <p className="mt-2">
           Proyecto de refuncionalización de Cocina en vivienda premoldeada,
           donde se buscaba mejorar la distribución de los artefactos y
           circulaciones.
@@ -118,7 +135,7 @@ function Independiente() {
           apropiados para que el comitente sea capaz de hacer el seguimiento de
           la obra.
         </p>
-        <p>
+        <p style={textStyle}>
           La documentación de la propuesta se contenía toda la información
           necesaria para el seguimiento de la obra, la confección del
           mobiliario, la instalación sanitaria, eléctrica y la construcción del
@@ -130,7 +147,7 @@ function Independiente() {
           Ampliación ASOEM
         </h4>{" "}
         <p style={{ display: "inline" }}>2019</p>
-        <p>
+        <p className="mt-2">
           Ubicada en San Javier, la propuesta contemplaba la incorporación de
           nuevos locales tanto para servicios existentes como nuevos, la
           incorporación de ingresos independientes para cada uno de los

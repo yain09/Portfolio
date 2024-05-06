@@ -50,21 +50,17 @@ function Cabecera() {
               title={<GiHamburgerMenu size={30} />}
               id="basic-nav-dropdown"
             >
-              <NavDropdown.Item>
-                {" "}
-                <Link to="/model">Modelado 3D</Link>
+             <NavDropdown.Item className="text-black" as={Link} to="/model">
+                Modelado 3D
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                {" "}
-                <Link to="/freelance">Ejercicio independiente</Link>
+              <NavDropdown.Item className="text-black" as={Link} to="/freelance">
+                Ejercicio independiente
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                {" "}
-                <Link to="/employee">Relación de dependencia</Link>
+              <NavDropdown.Item className="text-black" as={Link} to="/employee">
+                Relación de dependencia
               </NavDropdown.Item>
-              <NavDropdown.Item>
-                {" "}
-                <Link to="/concursos">Concursos</Link>
+              <NavDropdown.Item className="text-black" as={Link} to="/concursos">
+                Concursos
               </NavDropdown.Item>
             </NavDropdown>
           </Col>
@@ -84,7 +80,7 @@ function Cabecera() {
                   contacto{" "}
                 </Button>
               </Nav.Link>
-              <Nav.Link className="p-auto">
+              <Nav.Link className="pr-0">
                 <Button
                   onClick={() =>
                     window.open(
@@ -97,7 +93,7 @@ function Cabecera() {
                   className="p-1"
                 >
                   {" "}
-                  CV{" "}
+                   CV {" "}
                 </Button>
               </Nav.Link>
 
