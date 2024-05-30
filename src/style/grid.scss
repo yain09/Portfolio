@@ -1,6 +1,7 @@
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
-p, li {
+p,
+li {
   font-family: "Montserrat";
 }
 .fluid.container {
@@ -433,6 +434,11 @@ a img:hover,
     text-align: left;
     font-size: small;
     padding: 15px;
+  }
+}
+@media (width < 992px) {
+  .rownav {
+    padding: 0px !important;
   }
 }
 

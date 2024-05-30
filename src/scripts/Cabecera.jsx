@@ -32,7 +32,7 @@ function Cabecera() {
         <Row className="w-100 d-flex m-0">
           <Col
             xs={2}
-            className="d-flex my-0 align-content-center align-items-center text-start "
+            className="d-flex my-0 align-content-center align-items-center text-start rownav"
           >
             <Nav>
               <Link to="/Portfolio">
@@ -82,13 +82,13 @@ function Cabecera() {
                 <Button
                   variant="outline-light"
                   style={{ height: "35px" }}
-                  className="p-1"
+                  className="p-1 mx-1"
                 >
                   {" "}
                   contacto{" "}
                 </Button>
               </Nav.Link>
-              <Nav.Link className="pr-0">
+              <Nav.Link className="pr-0 rownav">
                 <Button
                   onClick={() =>
                     window.open(
@@ -98,7 +98,7 @@ function Cabecera() {
                   }
                   variant="outline-light"
                   style={{ height: "35px", marginRight: "10px" }}
-                  className="p-1"
+                  className="p-1 m-0"
                 >
                   {" "}
                   CV{" "}
