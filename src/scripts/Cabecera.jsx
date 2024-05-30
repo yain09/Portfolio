@@ -28,7 +28,7 @@ function Cabecera() {
 
   return (
     <Navbar bg="black" data-bs-theme="dark" style={{ height: "50px" }}>
-      <Container className="fluid" >
+      <Container className="fluid">
         <Row className="w-100 d-flex m-0">
           <Col
             xs={2}
@@ -50,16 +50,24 @@ function Cabecera() {
               title={<GiHamburgerMenu size={30} />}
               id="basic-nav-dropdown"
             >
-             <NavDropdown.Item className="text-black" as={Link} to="/model">
+              <NavDropdown.Item className="text-black" as={Link} to="/model">
                 Modelado 3D
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-black" as={Link} to="/freelance">
+              <NavDropdown.Item
+                className="text-black"
+                as={Link}
+                to="/freelance"
+              >
                 Ejercicio independiente
               </NavDropdown.Item>
               <NavDropdown.Item className="text-black" as={Link} to="/employee">
                 Relación de dependencia
               </NavDropdown.Item>
-              <NavDropdown.Item className="text-black" as={Link} to="/concursos">
+              <NavDropdown.Item
+                className="text-black"
+                as={Link}
+                to="/concursos"
+              >
                 Concursos
               </NavDropdown.Item>
             </NavDropdown>
@@ -93,7 +101,7 @@ function Cabecera() {
                   className="p-1"
                 >
                   {" "}
-                   CV {" "}
+                  CV{" "}
                 </Button>
               </Nav.Link>
 
@@ -154,6 +162,7 @@ function Cabecera() {
                   </Row>
                 </Modal.Body>
               </Modal>
+              
             </Nav>
           </Col>
         </Row>
