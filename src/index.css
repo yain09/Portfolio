@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #30336b;
+  background-image: radial-gradient (#eb4d4b 10px, transparent 10px);
+  background-size: 50px 50px;
   ::selection {
     background-color: chocolate;
   }
@@ -26,4 +29,3 @@ code {
 .dropdown-menu.show :hover {
   background-color: lightgray;
 }
-

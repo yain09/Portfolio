@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="App">
       <Cabecera />
-      <div className="plus-symbol-background">
+      <div className="bg-plus">
       <Routes>
         <Route path="/Portfolio" element={<Home />} />
         <Route path="/model" element={<Model />} />
