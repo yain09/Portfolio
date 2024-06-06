@@ -3,23 +3,25 @@
 $bg: #ffffff;
 $bg2: #242424;
 $gris: #d0d0d0;
-$gris2: #e1e1e1;
+$gris2: #f3f3f3;
 
 .bg-dot {
   background-color: $bg;
   background-image: radial-gradient($gris 1.5px, transparent 1.5px);
-  background-size: 50px 50px;
+  background-size: 202.5px 102.5px;
 }
 
-.bg-plus {
+body {
   background-color: $bg;
-  background-image: 
-  radial-gradient(circle, transparent 6px, #ffffff 6px),
-    linear-gradient($gris2 2px, transparent 2px),
-    linear-gradient(90deg, $gris2 2px, transparent 2px)
-    ;
-  background-size: 80px 80px;
-  background-position: 41px 41px, 0 0, 0 0;
+  background-image: radial-gradient($gris 1.5px, transparent 1.5px);
+  background-size: 50px 50px;
+  align-items: center;
+  // background-image: radial-gradient(circle, transparent 6px, #ffffff 6px),
+  //   linear-gradient($gris2 2px, transparent 2px),
+  //   linear-gradient(90deg, $gris2 2px, transparent 2px);
+  // background-size: 80px 80px;
+  // background-position: 100 100, 0 0, 0 0;
+  height: 100%;
 }
 
 p,

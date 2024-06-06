@@ -1,6 +1,6 @@
 import "../style/grid.scss";
 import { Container, Image } from "react-bootstrap";
-import me from "../img/home/yaingodoy.jpg";
+import me from "../img/home/yaingodoy.png";
 import maqueta3d from "../img/home/maqueta3D.jpg";
 import freelance from "../img/home/freelance.jpg";
 import empleado from "../img/home/empleado.jpg";
