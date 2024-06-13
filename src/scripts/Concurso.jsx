@@ -1,15 +1,15 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
-import cp00 from "../img/concursos/cp00.png";
-import cp01 from "../img/concursos/cp01.png";
-import cp02 from "../img/concursos/cp02.png";
-import cp03 from "../img/concursos/cp03.png";
-import ee from "../img/concursos/ee/ee.jpg";
-import ee00 from "../img/concursos/ee/ee00.png";
-import ee01 from "../img/concursos/ee/ee01.png";
-import ee02 from "../img/concursos/ee/ee02.png";
-import ee03 from "../img/concursos/ee/ee03.png";
+import cp00 from "../img/concursos/cp00.webp";
+import cp01 from "../img/concursos/cp01.webp";
+import cp02 from "../img/concursos/cp02.webp";
+import cp03 from "../img/concursos/cp03.webp";
+import ee from "../img/concursos/ee/ee.webp";
+import ee00 from "../img/concursos/ee/ee00.webp";
+import ee01 from "../img/concursos/ee/ee01.webp";
+import ee02 from "../img/concursos/ee/ee02.webp";
+import ee03 from "../img/concursos/ee/ee03.webp";
 
 function Concurso() {
   const images = [cp01, cp02, cp03];

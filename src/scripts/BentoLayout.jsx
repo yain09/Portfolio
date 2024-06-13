@@ -1,12 +1,12 @@
 import "../style/grid.scss";
 import { Container, Image } from "react-bootstrap";
-import me from "../img/home/yaingodoy.png";
-import maqueta3d from "../img/home/maqueta3D.jpg";
-import freelance from "../img/home/freelance.jpg";
-import empleado from "../img/home/empleado.jpg";
-import concursos from "../img/home/concursos.jpg";
-import sofware from "../img/home/software.png";
-import dev from "../img/home/dev.png";
+import me from "../img/home/yaingodoy.webp";
+import maqueta3d from "../img/home/maqueta3D.webp";
+import freelance from "../img/home/freelance.webp";
+import empleado from "../img/home/empleado.webp";
+import concursos from "../img/home/concursos.webp";
+import sofware from "../img/home/software.webp";
+import dev from "../img/home/dev.webp";
 import { Link } from "react-router-dom";
 function BentoLayout() {
   return (
@@ -51,8 +51,10 @@ function BentoLayout() {
         <img src={sofware} alt="sofware" className="t6" />
         <div className=" t8">
           <div className="image-container p-0 m-0">
-            <img src={dev} alt="desarrollo" />{" "}
-            <div className="pieFoto">web dev</div>
+            <a href="https://yain09.github.io/PortfolioDev"  target="_blank"
+                  rel="noopener noreferrer"><img src={dev} alt="desarrollo" />{" "}
+            <div className="pieFoto" style={{color:"black"}}>web dev</div>
+            </a>
           </div>
         </div>
       </Container>

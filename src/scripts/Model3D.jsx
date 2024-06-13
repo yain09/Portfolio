@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
-import miniatura3D from "../img/3d/thumbnail.jpg";
-import miniatura3D2 from "../img/3d/thumbnail2.jpg";
-import miniatura3D3 from "../img/3d/thumbnail3.jpg";
+import miniatura3D from "../img/3d/thumbnail.webp";
+import miniatura3D2 from "../img/3d/thumbnail2.webp";
+import miniatura3D3 from "../img/3d/thumbnail3.webp";
 import ReactPlayer from "react-player";
 
-import vs01 from "../img/3d/vs01.jpg";
-import vs02 from "../img/3d/vs02.jpg";
-import vs03 from "../img/3d/vs03.jpg";
-import vs04 from "../img/3d/vs04.jpg";
-import vs05 from "../img/3d/vs05.jpg";
-import vs06 from "../img/3d/vs06.jpg";
-import vs07 from "../img/3d/vs07.jpg";
-import vs08 from "../img/3d/vs08.jpg";
-import vs09 from "../img/3d/vs09.jpg";
-import mi01 from "../img/3d/mitre01.jpg";
-import mi02 from "../img/3d/mitre02.jpg";
-import mi03 from "../img/3d/mitre03.jpg";
-import mi04 from "../img/3d/mitre04.jpg";
-import mi05 from "../img/3d/mitre05.jpg";
-import mi06 from "../img/3d/mitre06.jpg";
-import mi07 from "../img/3d/mitre07.jpg";
+import vs01 from "../img/3d/vs01.webp";
+import vs02 from "../img/3d/vs02.webp";
+import vs03 from "../img/3d/vs03.webp";
+import vs04 from "../img/3d/vs04.webp";
+import vs05 from "../img/3d/vs05.webp";
+import vs06 from "../img/3d/vs06.webp";
+import vs07 from "../img/3d/vs07.webp";
+import vs08 from "../img/3d/vs08.webp";
+import vs09 from "../img/3d/vs09.webp";
+import mi01 from "../img/3d/mitre01.webp";
+import mi02 from "../img/3d/mitre02.webp";
+import mi03 from "../img/3d/mitre03.webp";
+import mi04 from "../img/3d/mitre04.webp";
+import mi05 from "../img/3d/mitre05.webp";
+import mi06 from "../img/3d/mitre06.webp";
+import mi07 from "../img/3d/mitre07.webp";
 
 function Model3D() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

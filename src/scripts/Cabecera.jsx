@@ -11,7 +11,7 @@ import {
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import yo from "../img/home/yaingodoy.jpg";
+import yo from "../img/home/yaingodoy.webp";
 import {
   IoMailUnreadOutline,
   IoCallOutline,
@@ -139,7 +139,7 @@ function Cabecera() {
                           <IoLocationOutline style={{ marginRight: "7px" }} />
                         </p>
                         <p>
-                          Centenario 1998 <br />
+                          
                           Santo Tomé, Santa Fe
                           <br />
                           Argentina

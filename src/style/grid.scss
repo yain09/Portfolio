@@ -16,11 +16,7 @@ body {
   background-image: radial-gradient($gris 1.5px, transparent 1.5px);
   background-size: 50px 50px;
   align-items: center;
-  // background-image: radial-gradient(circle, transparent 6px, #ffffff 6px),
-  //   linear-gradient($gris2 2px, transparent 2px),
-  //   linear-gradient(90deg, $gris2 2px, transparent 2px);
-  // background-size: 80px 80px;
-  // background-position: 100 100, 0 0, 0 0;
+  background-position: center 20px;
   height: 100%;
 }
 
