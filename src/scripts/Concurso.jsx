@@ -1,19 +1,11 @@
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
-import cp00 from "../img/concursos/cp00.webp";
-import cp01 from "../img/concursos/cp01.webp";
-import cp02 from "../img/concursos/cp02.webp";
-import cp03 from "../img/concursos/cp03.webp";
-import ee from "../img/concursos/ee/ee.webp";
-import ee00 from "../img/concursos/ee/ee00.webp";
-import ee01 from "../img/concursos/ee/ee01.webp";
-import ee02 from "../img/concursos/ee/ee02.webp";
-import ee03 from "../img/concursos/ee/ee03.webp";
+import { cpImages, eeImages } from "./imagenes";
 
 function Concurso() {
-  const images = [cp01, cp02, cp03];
-  const images2 = [ee01, ee02, ee03];
+  const images = [cpImages[1], cpImages[2], cpImages[3]];
+  const images2 = [eeImages[2], eeImages[3], eeImages[4]];
   return (
     <Container className="grid-concursos">
       <div className="texto">
@@ -36,13 +28,13 @@ function Concurso() {
       </div>
 
       <div className="pdf">
-        <Image src={cp00} />
+        <Image src={cpImages[0].src} />
       </div>
       <div className="carousel-2" style={{ height: "100%", width: "100%" }}>
-        <Carousel data-bs-theme="dark">
-          {images.map((image) => (
-            <Carousel.Item key={image}>
-              <img className="d-block w-100" src={image} alt="" />
+        <Carousel>
+          {images.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
             </Carousel.Item>
           ))}
         </Carousel>
@@ -58,15 +50,15 @@ function Concurso() {
           entre arquitectura y educación".{" "}
         </p>
       </div>
-      <a href={ee} target="_blank" rel="noreferrer" className="t2">
-        <Image src={ee00} />
+      <a href={eeImages[0]} target="_blank" rel="noreferrer" className="t2">
+        <Image src={eeImages[1].src} />
       </a>
 
       <div className="carousel">
         <Carousel data-bs-theme="dark">
-          {images2.map((image) => (
-            <Carousel.Item key={image}>
-              <img className="d-block w-100" src={image} alt="" />
+          {images2.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
             </Carousel.Item>
           ))}
         </Carousel>

@@ -2,24 +2,9 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
-import ruka01 from "../img/empleado/ruka01.jpg";
-import ruka02 from "../img/empleado/ruka02.jpg";
-import ruka03 from "../img/empleado/ruka03.jpg";
-import ruka04 from "../img/empleado/ruka04.jpg";
-import ruka05 from "../img/empleado/ruka05.jpg";
-import ruka06 from "../img/empleado/ruka06.jpg";
-import ruka07 from "../img/empleado/ruka07.jpg";
-import ruka08 from "../img/empleado/ruka08.jpg";
-import ruka09 from "../img/empleado/ruka09.jpg";
-import ruka10 from "../img/empleado/ruka10.jpg";
-import ruka11 from "../img/empleado/ruka11.jpg";
-import ruka12 from "../img/empleado/ruka12.jpg";
-import ruka13 from "../img/empleado/ruka13.jpg";
-import sj00b from "../img/empleado/sj00b.png";
-import sj00 from "../img/empleado/sj00.png";
-import sj01 from "../img/empleado/sj01.jpg";
-import sj02 from "../img/empleado/sj02.jpg";
-import sj03 from "../img/empleado/sj03.jpg";
+import { rukaImages, sjImages } from "./imagenes";
+import sj00 from "../img/empleado/sj/sj00.png";
+import sj00b from "../img/empleado/sj/sj00b.png";
 
 function Empleado() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -40,29 +25,15 @@ function Empleado() {
       windowWidth > 1200 || windowWidth < 992 ? "inline" : "none !important",
     fontSize: "1rem",
   };
-  const images = [
-    ruka01,
-    ruka02,
-    ruka03,
-    ruka04,
-    ruka05,
-    ruka06,
-    ruka07,
-    ruka08,
-    ruka09,
-    ruka10,
-    ruka11,
-    ruka12,
-    ruka13,
-  ];
-  const images2 = [sj01, sj02, sj03];
+
+  const images2 = [sjImages[2], sjImages[3], sjImages[4]];
   return (
     <Container className="grid-empleado">
       <div className="texto">
         <h4 className="titulo" style={{ display: "inline" }}>
           Ruka{" "}
         </h4>
-        <p style={{textStyle}}> oficina de Arquitectura</p>
+        <p style={{ textStyle }}> oficina de Arquitectura</p>
         <p style={{ display: "inline" }}> 2013-2015</p>
         <p className="mt-2">
           En este estudio de arquitectura realicé un proyecto, sus pliegos
@@ -77,9 +48,9 @@ function Empleado() {
       </div>
       <div className="carfree01">
         <Carousel data-bs-theme="dark">
-          {images.map((image) => (
-            <Carousel.Item key={image}>
-              <img className="d-block w-100" src={image} alt="" />
+          {rukaImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
             </Carousel.Item>
           ))}
         </Carousel>
@@ -100,9 +71,9 @@ function Empleado() {
       </div>
       <div className="carfree02">
         <Carousel data-bs-theme="dark">
-          {images2.map((images) => (
-            <Carousel.Item key={images}>
-              <img className="d-block w-100" src={images} alt="" />
+          {images2.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
             </Carousel.Item>
           ))}
         </Carousel>

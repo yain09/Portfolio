@@ -5,23 +5,7 @@ import miniatura3D from "../img/3d/thumbnail.webp";
 import miniatura3D2 from "../img/3d/thumbnail2.webp";
 import miniatura3D3 from "../img/3d/thumbnail3.webp";
 import ReactPlayer from "react-player";
-
-import vs01 from "../img/3d/vs01.webp";
-import vs02 from "../img/3d/vs02.webp";
-import vs03 from "../img/3d/vs03.webp";
-import vs04 from "../img/3d/vs04.webp";
-import vs05 from "../img/3d/vs05.webp";
-import vs06 from "../img/3d/vs06.webp";
-import vs07 from "../img/3d/vs07.webp";
-import vs08 from "../img/3d/vs08.webp";
-import vs09 from "../img/3d/vs09.webp";
-import mi01 from "../img/3d/mitre01.webp";
-import mi02 from "../img/3d/mitre02.webp";
-import mi03 from "../img/3d/mitre03.webp";
-import mi04 from "../img/3d/mitre04.webp";
-import mi05 from "../img/3d/mitre05.webp";
-import mi06 from "../img/3d/mitre06.webp";
-import mi07 from "../img/3d/mitre07.webp";
+import { bimImages, mitreImages } from "./imagenes";
 
 function Model3D() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -43,8 +27,7 @@ function Model3D() {
   const fcmitre = {
     display: windowWidth > 530 ? "block" : "none",
   };
-  const images = [vs01, vs02, vs03, vs04, vs05, vs06, vs07, vs08, vs09];
-  const images2 = [mi01, mi02, mi03, mi04, mi05, mi06, mi07];
+
   return (
     <Container className="grid3d">
       <div className="texto">
@@ -61,7 +44,7 @@ function Model3D() {
             <img src={miniatura3D} alt="Thumbnail" className="miniatura" />
           }
           className="react-player"
-          url="https://youtu.be/HyHBKJPXrM4"
+          url="https://youtu.be/HyHBKJPXrM4?vq=hd1080"
           loop
           playing
           width="100%"
@@ -93,9 +76,9 @@ function Model3D() {
       </div>
       <div className="carousel">
         <Carousel data-bs-theme="dark">
-          {images.map((image) => (
-            <Carousel.Item key={image}>
-              <img className="d-block w-100" src={image} alt="" />
+          {bimImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt={image.alt} />
             </Carousel.Item>
           ))}
         </Carousel>
@@ -106,13 +89,15 @@ function Model3D() {
             <img src={miniatura3D2} alt="Thumbnail" className="miniatura" />
           }
           className="react-player"
-          url="https://youtu.be/rbRCYFgTVss"
+          url="https://youtu.be/rbRCYFgTVss?vq=hd1080"
           loop
           playing
           width="100%"
           height="100%"
-          controls
+          controls={true}
+          quality="1080p"
           style={{ borderRadius: "10px" }}
+          
         />
       </div>
       <div className="texto3">
@@ -129,7 +114,7 @@ function Model3D() {
             <img src={miniatura3D3} alt="Thumbnail" className="miniatura" />
           }
           className="react-player"
-          url="https://youtu.be/bA0_Guc_C3Q?si=RB7BZFF9Ie2A7exs"
+          url="https://youtu.be/bA0_Guc_C3Q?vq=hd1080"
           playing
           width="100%"
           height="100%"
@@ -139,9 +124,11 @@ function Model3D() {
       </div>
       <div className="carousel-2">
         <Carousel data-bs-theme="dark">
-          {images2.map((image2) => (
-            <Carousel.Item key={image2}>
-              <img className="d-block w-100" src={image2} alt="" />
+          {mitreImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              {" "}
+              {/* Cambia `image2` a `index` */}
+              <img className="d-block w-100" src={image.src} alt={image.alt} />
             </Carousel.Item>
           ))}
         </Carousel>
