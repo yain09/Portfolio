@@ -63,7 +63,7 @@ function Model3D() {
             rel="noreferrer noopener"
           >
             {" "}
-            BIM+Arquitectura
+            BIM+Arquitectura {" "}
           </a>
           a partir del pliego de licitación de un proyecto publico con el fin de
           simular la hipótesis de la tesis.
