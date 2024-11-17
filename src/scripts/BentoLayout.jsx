@@ -1,4 +1,5 @@
 import "../style/grid.scss";
+import "../style/modals.scss";
 import { Container, Image } from "react-bootstrap";
 import { homeImages } from "./imagenes";
 import { Link } from "react-router-dom";

@@ -24,6 +24,7 @@ const homeImagesHD = {
   dev: require("../img/home/hd/dev.png"),
 };
 
+// Imágenes SD
 const gmImages = importImages(
   require.context("../img/freelance/German", false, /\.(webp|jpg|png)$/)
 );
@@ -52,6 +53,7 @@ const mitreImages = importImages(
   require.context("../img/3d/mitre", false, /\.(webp|jpg|png)$/)
 );
 
+// Imágenes HD
 const gmImagesHD = importImages(
   require.context("../img/freelance/German/hd", false, /\.(webp|jpg|png)$/)
 );
@@ -64,9 +66,11 @@ const mcImagesHD = importImages(
 const cpImagesHD = importImages(
   require.context("../img/concursos/cp/hd", false, /\.(webp|jpg|png)$/)
 );
+
 const eeImagesHD = importImages(
   require.context("../img/concursos/ee/hd", false, /\.(webp|jpg|png)$/)
 );
+
 const rukaImagesHD = importImages(
   require.context("../img/empleado/ruka/hd", false, /\.(webp|jpg|png)$/)
 );
