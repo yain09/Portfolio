@@ -45,9 +45,9 @@ const Concurso = () => {
         </ul>
       </div>
 
-      <a href="" className="pdf">
+      <div  className="pdf">
         <Image src={cpic} />
-      </a>
+      </div>
 
       <div className="carousel-2" style={{ height: "100%", width: "100%" }}>
         <Carousel>
@@ -81,7 +81,7 @@ const Concurso = () => {
         <Image src={espescuela} />
       </a>
 
-      <div className="carousel">
+      <div className="carousel-3">
         <Carousel>
           {eeImages.map((image, index) => (
             <Carousel.Item key={index}>

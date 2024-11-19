@@ -1,26 +1,88 @@
-  .modal {
-    --bs-modal-width: 100vw !important;
-    padding: 0px !important;
-  }
+/* Configuración general del modal */
+.modal {
+  --bs-modal-width: 100vw !important;
+  padding: 0px !important;
+}
 
-  .modal-dialog {
-    margin: 0 !important;
-    width: 100vw !important;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.modal-dialog {
+  margin: 0 !important;
+  width: 100vw !important;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .modal-content {
-    flex-direction: row;
-    width: min-content !important;
-    background-color: transparent !important;
-    align-items: center;
-    border: none !important;
-  }
+.modal-content {
+  flex-direction: row;
+  width: min-content !important;
+  background-color: transparent !important;
+  align-items: center;
+  border: none !important;
+}
 
-  .modal .carousel-inner {
-    height: min-content;
-    border-radius: 10px !important;
-  }
+/* Ajustes específicos para el Carousel dentro del modal */
+.modal .carousel-inner {
+  height: min-content;
+  border-radius: 10px !important;
+}
+
+.modal .carousel .nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: chocolate; /* Color por defecto */
+}
+
+.modal .carousel .nav-icons:hover {
+  color: orange; /* Cambia de color al hover */
+}
+
+.modal .carousel .nav-prev {
+  transform: rotate(180deg); /* Ajusta la dirección del ícono Prev */
+}
+
+.modal .carousel .nav-next {
+  transform: rotate(0deg); /* Sin cambio para Next */
+}
+
+.modal .carousel .nav-icons svg {
+  width: 50px;
+  height: 50px;
+  fill: none; /* Evita colores por defecto */
+}
+
+/* Estilo general para los indicadores del modal */
+.modal .carousel-indicators [data-bs-target] {
+  background-color: chocolate; /* Cambia el color a chocolate */
+  opacity: 0.5; /* Transparencia inicial */
+  transition: opacity 0.3s ease; /* Efecto suave */
+}
+
+/* Indicador activo */
+.modal .carousel-indicators .active {
+  background-color: orange; /* Mismo color para el activo */
+  opacity: 1; /* Sin transparencia */
+  height: 8px; /* Agranda la línea activa */
+  max-height: 8px;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease;
+}
+
+/* Hover en los indicadores */
+.modal .carousel-indicators [data-bs-target]:hover {
+  opacity: 0.8; /* Mayor visibilidad al pasar el mouse */
+}
+
+.modal .carousel-indicators {
+  gap: 4px;
+  display: flex;
+  align-items: top;
+  height: 8px;
+}
+.modal .carousel-indicators button {
+  border: 0px;
+  margin: 0px !important;
+  width: 28px; /* Ancho de la línea */
+  height: 4px;
+  border-radius: 2px;
+}

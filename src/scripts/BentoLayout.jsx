@@ -1,5 +1,4 @@
 import "../style/grid.scss";
-import "../style/modals.scss";
 import { Container, Image } from "react-bootstrap";
 import { homeImages } from "./imagenes";
 import { Link } from "react-router-dom";
@@ -52,7 +51,7 @@ function BentoLayout() {
               rel="noopener noreferrer"
             >
               <img src={homeImages.dev} alt="desarrollo" />{" "}
-              <div className="pieFoto" style={{ color: "black" }}>
+              <div className="pieFoto" style={{ color: "white", textShadow: "0px 0px 3px black" }}>
                 web dev
               </div>
             </a>
