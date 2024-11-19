@@ -1,0 +1,2252 @@
+src\
+|   components\
+|   img\
+|   |   3d\
+|   |   |   bim\
+|   |   |   |   hd\
+|   |   |   |   |   - vs01.jpg
+|   |   |   |   |   - vs02.jpg
+|   |   |   |   |   - vs03.jpg
+|   |   |   |   |   - vs04.jpg
+|   |   |   |   |   - vs05.jpg
+|   |   |   |   |   - vs06.jpg
+|   |   |   |   |   - vs07.jpg
+|   |   |   |   |   - vs08.jpg
+|   |   |   |   |   - vs09.jpg
+|   |   |   |   - vs01.webp
+|   |   |   |   - vs02.webp
+|   |   |   |   - vs03.webp
+|   |   |   |   - vs04.webp
+|   |   |   |   - vs05.webp
+|   |   |   |   - vs06.webp
+|   |   |   |   - vs07.webp
+|   |   |   |   - vs08.webp
+|   |   |   |   - vs09.webp
+|   |   |   hd\
+|   |   |   |   - thumbnail.jpg
+|   |   |   |   - thumbnail2.jpg
+|   |   |   |   - thumbnail3.jpg
+|   |   |   mitre\
+|   |   |   |   hd\
+|   |   |   |   |   - mitre01.jpg
+|   |   |   |   |   - mitre02.jpg
+|   |   |   |   |   - mitre03.jpg
+|   |   |   |   |   - mitre04.jpg
+|   |   |   |   |   - mitre05.jpg
+|   |   |   |   |   - mitre06.jpg
+|   |   |   |   |   - mitre07.jpg
+|   |   |   |   - mitre01.webp
+|   |   |   |   - mitre02.webp
+|   |   |   |   - mitre03.webp
+|   |   |   |   - mitre04.webp
+|   |   |   |   - mitre05.webp
+|   |   |   |   - mitre06.webp
+|   |   |   |   - mitre07.webp
+|   |   |   - thumbnail.webp
+|   |   |   - thumbnail2.webp
+|   |   |   - thumbnail3.webp
+|   |   concursos\
+|   |   |   cp\
+|   |   |   |   hd\
+|   |   |   |   |   - cp01.png
+|   |   |   |   |   - cp02.png
+|   |   |   |   |   - cp03.png
+|   |   |   |   vertical\
+|   |   |   |   |   hd\
+|   |   |   |   |   |   - cp00.png
+|   |   |   |   |   - cp00.webp
+|   |   |   |   - cp01.webp
+|   |   |   |   - cp02.webp
+|   |   |   |   - cp03.webp
+|   |   |   ee\
+|   |   |   |   hd\
+|   |   |   |   |   - ee01.png
+|   |   |   |   |   - ee02.png
+|   |   |   |   |   - ee03.png
+|   |   |   |   heavy\
+|   |   |   |   |   - ee (1).jpg
+|   |   |   |   |   - ee (3).jpg
+|   |   |   |   |   - ee (4).jpg
+|   |   |   |   |   - ee (4).jpg.png
+|   |   |   |   |   - ee (5).jpg
+|   |   |   |   |   - ee (6).jpg
+|   |   |   |   |   - ee.webp
+|   |   |   |   |   - ee00.png
+|   |   |   |   |   - ee01.png
+|   |   |   |   |   - ee02.png
+|   |   |   |   |   - ee03.png
+|   |   |   |   vertical\
+|   |   |   |   |   hd\
+|   |   |   |   |   |   - ee.jpg
+|   |   |   |   |   - ee00.webp
+|   |   |   |   - ee01.webp
+|   |   |   |   - ee02.webp
+|   |   |   |   - ee03.webp
+|   |   |   - CpicA.jpg
+|   |   empleado\
+|   |   |   ruka\
+|   |   |   |   hd\
+|   |   |   |   |   - ruka01up2.jpg
+|   |   |   |   |   - ruka02up.jpg
+|   |   |   |   |   - ruka03.jpg
+|   |   |   |   |   - ruka04.jpg
+|   |   |   |   |   - ruka05.jpg
+|   |   |   |   |   - ruka05b.jpg
+|   |   |   |   |   - ruka06up.jpg
+|   |   |   |   |   - ruka07up.jpg
+|   |   |   |   |   - ruka08up.jpg
+|   |   |   |   |   - ruka09up.jpg
+|   |   |   |   |   - ruka10up.jpg
+|   |   |   |   |   - ruka11up.jpg
+|   |   |   |   |   - ruka12up.jpg
+|   |   |   |   |   - ruka13up.jpg
+|   |   |   |   originales\
+|   |   |   |   |   - ruka01.jpg
+|   |   |   |   |   - ruka01up.jpg
+|   |   |   |   |   - ruka02.jpg
+|   |   |   |   |   - ruka06.jpg
+|   |   |   |   |   - ruka07.jpg
+|   |   |   |   |   - ruka08.jpg
+|   |   |   |   |   - ruka09.jpg
+|   |   |   |   |   - ruka10.jpg
+|   |   |   |   |   - ruka11.jpg
+|   |   |   |   |   - ruka12.jpg
+|   |   |   |   |   - ruka13.jpg
+|   |   |   |   - ruka01.webp
+|   |   |   |   - ruka02.webp
+|   |   |   |   - ruka03.webp
+|   |   |   |   - ruka04.webp
+|   |   |   |   - ruka05.webp
+|   |   |   |   - ruka05b.webp
+|   |   |   |   - ruka06.webp
+|   |   |   |   - ruka07.webp
+|   |   |   |   - ruka08.webp
+|   |   |   |   - ruka09.webp
+|   |   |   |   - ruka10.webp
+|   |   |   |   - ruka11.webp
+|   |   |   |   - ruka12.webp
+|   |   |   |   - ruka13.webp
+|   |   |   sj\
+|   |   |   |   hd\
+|   |   |   |   |   - sj00.png
+|   |   |   |   |   - sj00b.png
+|   |   |   |   |   - sj01.jpg
+|   |   |   |   |   - sj02.jpg
+|   |   |   |   |   - sj03.jpg
+|   |   |   |   - epse.pdf
+|   |   |   |   - sj00.png
+|   |   |   |   - sj00b.png
+|   |   |   |   - sj01.webp
+|   |   |   |   - sj02.webp
+|   |   |   |   - sj03.webp
+|   |   freelance\
+|   |   |   German\
+|   |   |   |   hd\
+|   |   |   |   |   - gm01.jpg
+|   |   |   |   |   - gm02.jpg
+|   |   |   |   |   - gm03.jpg
+|   |   |   |   |   - gm04.jpg
+|   |   |   |   |   - gm05.jpg
+|   |   |   |   |   - gm06.jpg
+|   |   |   |   |   - gm07.jpg
+|   |   |   |   |   - gm08.jpg
+|   |   |   |   |   - gm09.jpg
+|   |   |   |   |   - gm10.jpg
+|   |   |   |   |   - gm11.jpg
+|   |   |   |   - gm01.webp
+|   |   |   |   - gm02.webp
+|   |   |   |   - gm03.webp
+|   |   |   |   - gm04.webp
+|   |   |   |   - gm05.webp
+|   |   |   |   - gm06.webp
+|   |   |   |   - gm07.webp
+|   |   |   |   - gm08.webp
+|   |   |   |   - gm09.webp
+|   |   |   |   - gm10.webp
+|   |   |   |   - gm11.webp
+|   |   |   heavy\
+|   |   |   |   - 0.png
+|   |   |   |   - 1.png
+|   |   |   |   - 2.png
+|   |   |   |   - frente2.png
+|   |   |   |   - gm00.jpg
+|   |   |   |   - gm00.png
+|   |   |   |   - gm00b.png
+|   |   |   |   - gm00c.png
+|   |   |   |   - jf07.png
+|   |   |   |   - mc.png
+|   |   |   |   - mc00a.png
+|   |   |   |   - mc00b.png
+|   |   |   |   - mc00c.png
+|   |   |   |   - mc01.jpg
+|   |   |   |   - mc06.png
+|   |   |   Juanfran\
+|   |   |   |   hd\
+|   |   |   |   |   - jf01.jpg
+|   |   |   |   |   - jf02.jpg
+|   |   |   |   |   - jf03.png
+|   |   |   |   |   - jf04.png
+|   |   |   |   |   - jf05.jpg
+|   |   |   |   |   - jf06.jpg
+|   |   |   |   |   - jf07.jpg
+|   |   |   |   |   - jf08.jpg
+|   |   |   |   |   - jf09.jpg
+|   |   |   |   |   - jf10.jpg
+|   |   |   |   - jf01.webp
+|   |   |   |   - jf02.webp
+|   |   |   |   - jf03.webp
+|   |   |   |   - jf04.webp
+|   |   |   |   - jf05.webp
+|   |   |   |   - jf06.webp
+|   |   |   |   - jf07.webp
+|   |   |   |   - jf08.webp
+|   |   |   |   - jf09.webp
+|   |   |   |   - jf10.webp
+|   |   |   San Javier\
+|   |   |   |   hd\
+|   |   |   |   |   - mc00.png
+|   |   |   |   |   - mc00a.jpg
+|   |   |   |   |   - mc00b.jpg
+|   |   |   |   |   - mc00c.jpg
+|   |   |   |   |   - mc01.png
+|   |   |   |   |   - mc02.jpg
+|   |   |   |   |   - mc03.jpg
+|   |   |   |   |   - mc04.png
+|   |   |   |   |   - mc05.jpg
+|   |   |   |   |   - mc06.jpg
+|   |   |   |   - mc00.webp
+|   |   |   |   - mc00a.webp
+|   |   |   |   - mc00b.webp
+|   |   |   |   - mc00c.webp
+|   |   |   |   - mc01.webp
+|   |   |   |   - mc02.webp
+|   |   |   |   - mc03.webp
+|   |   |   |   - mc04.webp
+|   |   |   |   - mc05.webp
+|   |   |   |   - mc06.webp
+|   |   |   |   - planoAsoem.pdf
+|   |   home\
+|   |   |   hd\
+|   |   |   |   - concursos.jpg
+|   |   |   |   - concursosOp.jpg
+|   |   |   |   - dev.png
+|   |   |   |   - empleado.jpg
+|   |   |   |   - freelance.jpg
+|   |   |   |   - maqueta3D.jpg
+|   |   |   |   - software.png
+|   |   |   |   - yaingodoy.jpg
+|   |   |   |   - yaingodoy.png
+|   |   |   - concursos.webp
+|   |   |   - concursosOp.webp
+|   |   |   - dev.webp
+|   |   |   - empleado.webp
+|   |   |   - freelance.webp
+|   |   |   - maqueta3D.webp
+|   |   |   - software.webp
+|   |   |   - yaingodoy.webp
+|   |   svg\
+|   |   - bg-transp.png
+|   |   - bg.png
+|   |   - favicon.ico
+|   scripts\
+|   |   - Arquitectura.jsx
+|   |   - BentoLayout.jsx
+|   |   - BlockB.jsx
+|   |   - Cabecera.jsx
+|   |   - Card.jsx
+|   |   - Concurso.jsx
+|   |   - Empleado.jsx
+|   |   - ImageModal.jsx
+|   |   - imagenes.js
+|   |   - Independiente.jsx
+|   |   - ModalComponent.jsx
+|   |   - Model3D.jsx
+|   style\
+|   |   - grid.scss
+|   |   - modals.scss
+|   - App.css
+|   - App.js
+|   - App.test.js
+|   - index.css
+|   - index.js
+|   - logo.svg
+|   - reportWebVitals.js
+|   - setupTests.js
+|   |   |   |   |   - vs01.jpg (Imagen)
+|   |   |   |   |   - vs02.jpg (Imagen)
+|   |   |   |   |   - vs03.jpg (Imagen)
+|   |   |   |   |   - vs04.jpg (Imagen)
+|   |   |   |   |   - vs05.jpg (Imagen)
+|   |   |   |   |   - vs06.jpg (Imagen)
+|   |   |   |   |   - vs07.jpg (Imagen)
+|   |   |   |   |   - vs08.jpg (Imagen)
+|   |   |   |   |   - vs09.jpg (Imagen)
+|   |   |   |   - vs01.webp (Imagen)
+|   |   |   |   - vs02.webp (Imagen)
+|   |   |   |   - vs03.webp (Imagen)
+|   |   |   |   - vs04.webp (Imagen)
+|   |   |   |   - vs05.webp (Imagen)
+|   |   |   |   - vs06.webp (Imagen)
+|   |   |   |   - vs07.webp (Imagen)
+|   |   |   |   - vs08.webp (Imagen)
+|   |   |   |   - vs09.webp (Imagen)
+|   |   |   |   - thumbnail.jpg (Imagen)
+|   |   |   |   - thumbnail2.jpg (Imagen)
+|   |   |   |   - thumbnail3.jpg (Imagen)
+|   |   |   |   |   - mitre01.jpg (Imagen)
+|   |   |   |   |   - mitre02.jpg (Imagen)
+|   |   |   |   |   - mitre03.jpg (Imagen)
+|   |   |   |   |   - mitre04.jpg (Imagen)
+|   |   |   |   |   - mitre05.jpg (Imagen)
+|   |   |   |   |   - mitre06.jpg (Imagen)
+|   |   |   |   |   - mitre07.jpg (Imagen)
+|   |   |   |   - mitre01.webp (Imagen)
+|   |   |   |   - mitre02.webp (Imagen)
+|   |   |   |   - mitre03.webp (Imagen)
+|   |   |   |   - mitre04.webp (Imagen)
+|   |   |   |   - mitre05.webp (Imagen)
+|   |   |   |   - mitre06.webp (Imagen)
+|   |   |   |   - mitre07.webp (Imagen)
+|   |   |   - thumbnail.webp (Imagen)
+|   |   |   - thumbnail2.webp (Imagen)
+|   |   |   - thumbnail3.webp (Imagen)
+|   |   |   |   |   - cp01.png (Imagen)
+|   |   |   |   |   - cp02.png (Imagen)
+|   |   |   |   |   - cp03.png (Imagen)
+|   |   |   |   |   |   - cp00.png (Imagen)
+|   |   |   |   |   - cp00.webp (Imagen)
+|   |   |   |   - cp01.webp (Imagen)
+|   |   |   |   - cp02.webp (Imagen)
+|   |   |   |   - cp03.webp (Imagen)
+|   |   |   |   |   - ee01.png (Imagen)
+|   |   |   |   |   - ee02.png (Imagen)
+|   |   |   |   |   - ee03.png (Imagen)
+|   |   |   |   |   - ee (1).jpg (Imagen)
+|   |   |   |   |   - ee (3).jpg (Imagen)
+|   |   |   |   |   - ee (4).jpg (Imagen)
+|   |   |   |   |   - ee (4).jpg.png (Imagen)
+|   |   |   |   |   - ee (5).jpg (Imagen)
+|   |   |   |   |   - ee (6).jpg (Imagen)
+|   |   |   |   |   - ee.webp (Imagen)
+|   |   |   |   |   - ee00.png (Imagen)
+|   |   |   |   |   - ee01.png (Imagen)
+|   |   |   |   |   - ee02.png (Imagen)
+|   |   |   |   |   - ee03.png (Imagen)
+|   |   |   |   |   |   - ee.jpg (Imagen)
+|   |   |   |   |   - ee00.webp (Imagen)
+|   |   |   |   - ee01.webp (Imagen)
+|   |   |   |   - ee02.webp (Imagen)
+|   |   |   |   - ee03.webp (Imagen)
+|   |   |   - CpicA.jpg (Imagen)
+|   |   |   |   |   - ruka01up2.jpg (Imagen)
+|   |   |   |   |   - ruka02up.jpg (Imagen)
+|   |   |   |   |   - ruka03.jpg (Imagen)
+|   |   |   |   |   - ruka04.jpg (Imagen)
+|   |   |   |   |   - ruka05.jpg (Imagen)
+|   |   |   |   |   - ruka05b.jpg (Imagen)
+|   |   |   |   |   - ruka06up.jpg (Imagen)
+|   |   |   |   |   - ruka07up.jpg (Imagen)
+|   |   |   |   |   - ruka08up.jpg (Imagen)
+|   |   |   |   |   - ruka09up.jpg (Imagen)
+|   |   |   |   |   - ruka10up.jpg (Imagen)
+|   |   |   |   |   - ruka11up.jpg (Imagen)
+|   |   |   |   |   - ruka12up.jpg (Imagen)
+|   |   |   |   |   - ruka13up.jpg (Imagen)
+|   |   |   |   |   - ruka01.jpg (Imagen)
+|   |   |   |   |   - ruka01up.jpg (Imagen)
+|   |   |   |   |   - ruka02.jpg (Imagen)
+|   |   |   |   |   - ruka06.jpg (Imagen)
+|   |   |   |   |   - ruka07.jpg (Imagen)
+|   |   |   |   |   - ruka08.jpg (Imagen)
+|   |   |   |   |   - ruka09.jpg (Imagen)
+|   |   |   |   |   - ruka10.jpg (Imagen)
+|   |   |   |   |   - ruka11.jpg (Imagen)
+|   |   |   |   |   - ruka12.jpg (Imagen)
+|   |   |   |   |   - ruka13.jpg (Imagen)
+|   |   |   |   - ruka01.webp (Imagen)
+|   |   |   |   - ruka02.webp (Imagen)
+|   |   |   |   - ruka03.webp (Imagen)
+|   |   |   |   - ruka04.webp (Imagen)
+|   |   |   |   - ruka05.webp (Imagen)
+|   |   |   |   - ruka05b.webp (Imagen)
+|   |   |   |   - ruka06.webp (Imagen)
+|   |   |   |   - ruka07.webp (Imagen)
+|   |   |   |   - ruka08.webp (Imagen)
+|   |   |   |   - ruka09.webp (Imagen)
+|   |   |   |   - ruka10.webp (Imagen)
+|   |   |   |   - ruka11.webp (Imagen)
+|   |   |   |   - ruka12.webp (Imagen)
+|   |   |   |   - ruka13.webp (Imagen)
+|   |   |   |   |   - sj00.png (Imagen)
+|   |   |   |   |   - sj00b.png (Imagen)
+|   |   |   |   |   - sj01.jpg (Imagen)
+|   |   |   |   |   - sj02.jpg (Imagen)
+|   |   |   |   |   - sj03.jpg (Imagen)
+|   |   |   |   - epse.pdf (Imagen)
+|   |   |   |   - sj00.png (Imagen)
+|   |   |   |   - sj00b.png (Imagen)
+|   |   |   |   - sj01.webp (Imagen)
+|   |   |   |   - sj02.webp (Imagen)
+|   |   |   |   - sj03.webp (Imagen)
+|   |   |   |   |   - gm01.jpg (Imagen)
+|   |   |   |   |   - gm02.jpg (Imagen)
+|   |   |   |   |   - gm03.jpg (Imagen)
+|   |   |   |   |   - gm04.jpg (Imagen)
+|   |   |   |   |   - gm05.jpg (Imagen)
+|   |   |   |   |   - gm06.jpg (Imagen)
+|   |   |   |   |   - gm07.jpg (Imagen)
+|   |   |   |   |   - gm08.jpg (Imagen)
+|   |   |   |   |   - gm09.jpg (Imagen)
+|   |   |   |   |   - gm10.jpg (Imagen)
+|   |   |   |   |   - gm11.jpg (Imagen)
+|   |   |   |   - gm01.webp (Imagen)
+|   |   |   |   - gm02.webp (Imagen)
+|   |   |   |   - gm03.webp (Imagen)
+|   |   |   |   - gm04.webp (Imagen)
+|   |   |   |   - gm05.webp (Imagen)
+|   |   |   |   - gm06.webp (Imagen)
+|   |   |   |   - gm07.webp (Imagen)
+|   |   |   |   - gm08.webp (Imagen)
+|   |   |   |   - gm09.webp (Imagen)
+|   |   |   |   - gm10.webp (Imagen)
+|   |   |   |   - gm11.webp (Imagen)
+|   |   |   |   - 0.png (Imagen)
+|   |   |   |   - 1.png (Imagen)
+|   |   |   |   - 2.png (Imagen)
+|   |   |   |   - frente2.png (Imagen)
+|   |   |   |   - gm00.jpg (Imagen)
+|   |   |   |   - gm00.png (Imagen)
+|   |   |   |   - gm00b.png (Imagen)
+|   |   |   |   - gm00c.png (Imagen)
+|   |   |   |   - jf07.png (Imagen)
+|   |   |   |   - mc.png (Imagen)
+|   |   |   |   - mc00a.png (Imagen)
+|   |   |   |   - mc00b.png (Imagen)
+|   |   |   |   - mc00c.png (Imagen)
+|   |   |   |   - mc01.jpg (Imagen)
+|   |   |   |   - mc06.png (Imagen)
+|   |   |   |   |   - jf01.jpg (Imagen)
+|   |   |   |   |   - jf02.jpg (Imagen)
+|   |   |   |   |   - jf03.png (Imagen)
+|   |   |   |   |   - jf04.png (Imagen)
+|   |   |   |   |   - jf05.jpg (Imagen)
+|   |   |   |   |   - jf06.jpg (Imagen)
+|   |   |   |   |   - jf07.jpg (Imagen)
+|   |   |   |   |   - jf08.jpg (Imagen)
+|   |   |   |   |   - jf09.jpg (Imagen)
+|   |   |   |   |   - jf10.jpg (Imagen)
+|   |   |   |   - jf01.webp (Imagen)
+|   |   |   |   - jf02.webp (Imagen)
+|   |   |   |   - jf03.webp (Imagen)
+|   |   |   |   - jf04.webp (Imagen)
+|   |   |   |   - jf05.webp (Imagen)
+|   |   |   |   - jf06.webp (Imagen)
+|   |   |   |   - jf07.webp (Imagen)
+|   |   |   |   - jf08.webp (Imagen)
+|   |   |   |   - jf09.webp (Imagen)
+|   |   |   |   - jf10.webp (Imagen)
+|   |   |   |   |   - mc00.png (Imagen)
+|   |   |   |   |   - mc00a.jpg (Imagen)
+|   |   |   |   |   - mc00b.jpg (Imagen)
+|   |   |   |   |   - mc00c.jpg (Imagen)
+|   |   |   |   |   - mc01.png (Imagen)
+|   |   |   |   |   - mc02.jpg (Imagen)
+|   |   |   |   |   - mc03.jpg (Imagen)
+|   |   |   |   |   - mc04.png (Imagen)
+|   |   |   |   |   - mc05.jpg (Imagen)
+|   |   |   |   |   - mc06.jpg (Imagen)
+|   |   |   |   - mc00.webp (Imagen)
+|   |   |   |   - mc00a.webp (Imagen)
+|   |   |   |   - mc00b.webp (Imagen)
+|   |   |   |   - mc00c.webp (Imagen)
+|   |   |   |   - mc01.webp (Imagen)
+|   |   |   |   - mc02.webp (Imagen)
+|   |   |   |   - mc03.webp (Imagen)
+|   |   |   |   - mc04.webp (Imagen)
+|   |   |   |   - mc05.webp (Imagen)
+|   |   |   |   - mc06.webp (Imagen)
+|   |   |   |   - planoAsoem.pdf (Imagen)
+|   |   |   |   - concursos.jpg (Imagen)
+|   |   |   |   - concursosOp.jpg (Imagen)
+|   |   |   |   - dev.png (Imagen)
+|   |   |   |   - empleado.jpg (Imagen)
+|   |   |   |   - freelance.jpg (Imagen)
+|   |   |   |   - maqueta3D.jpg (Imagen)
+|   |   |   |   - software.png (Imagen)
+|   |   |   |   - yaingodoy.jpg (Imagen)
+|   |   |   |   - yaingodoy.png (Imagen)
+|   |   |   - concursos.webp (Imagen)
+|   |   |   - concursosOp.webp (Imagen)
+|   |   |   - dev.webp (Imagen)
+|   |   |   - empleado.webp (Imagen)
+|   |   |   - freelance.webp (Imagen)
+|   |   |   - maqueta3D.webp (Imagen)
+|   |   |   - software.webp (Imagen)
+|   |   |   - yaingodoy.webp (Imagen)
+|   |   - bg-transp.png (Imagen)
+|   |   - bg.png (Imagen)
+|   |   - favicon.ico (Imagen)
+
+Contenido de C:\Dev\portfolio\src\scripts\Arquitectura.jsx:
+import { Row, Col, Container } from "react-bootstrap";
+import { useLocation } from "react-router-dom";
+function Arquitectura() {
+  const location = useLocation();
+
+  return (
+    <Container>
+      <Row className="text-start font-monospace align-items-end ">
+        <Col className="arq">
+          <div className="arq">
+            {(location.pathname === "/Portfolio" || location.pathname === "/Portfolio/") && (
+              <p className="fs-5 m-0 p-0">portfolio</p>
+            )}
+            {location.pathname === "/model" && (
+              <p className="fs-5 m-0 p-0">modelado 3D</p>
+            )}
+            {location.pathname === "/employee" && (
+              <p className="fs-5 m-0 p-0">en relación de dependencia</p>
+            )}
+            {location.pathname === "/concursos" && (
+              <p className="fs-5 m-0 p-0">concursos</p>
+            )}
+            {location.pathname === "/freelance" && (
+              <p className="fs-5 m-0 p-0">independiente</p>
+            )}
+            <span className="fs-1 m-0 p-0">Yain Godoy </span>
+            <span>arquitecto </span>
+            <div className="arq"></div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default Arquitectura;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\BentoLayout.jsx:
+import "../style/grid.scss";
+import "../style/modals.scss";
+import { Container, Image } from "react-bootstrap";
+import { homeImages } from "./imagenes";
+import { Link } from "react-router-dom";
+function BentoLayout() {
+  return (
+    <>
+      <Container className="gridHome">
+        <div className="t1 ">
+          {" "}
+          <p className="mb-0">
+            Apasionado por la tecnología, el diseño y la arquitectura. Me
+            considero una persona proactiva, abierta a nuevos retos. La
+            exploración a través de diversos ámbitos del diseño y la
+            construcción me ha llevado desde la concepción y dirección de
+            proyectos arquitectónicos a la incursiones en la impresión 3D, el
+            diseño y el desarrollo web.{" "}
+          </p>
+        </div>
+        <Image src={homeImages.yaingodoy} className=" t2" />
+        <Link to="/model" className="t3 p-0 m-0">
+          <div className="image-container p-0 m-0">
+            <img src={homeImages.maqueta3d} alt="" className="image" />
+            <div className="pieFoto">Modelado 3D / Render</div>
+          </div>
+        </Link>
+        <Link to="/freelance" className=" t4">
+          <div className="image-container p-0 m-0">
+            <img src={homeImages.freelance} alt="freelance" />{" "}
+            <div className="pieFoto">Independiente</div>
+          </div>
+        </Link>
+        <Link to="/employee" className=" t5">
+          <div className="image-container p-0 m-0">
+            <img src={homeImages.empleado} alt="empleado" />{" "}
+            <div className="pieFoto">Empleado</div>
+          </div>
+        </Link>
+        <Link to="/concursos" className=" t7">
+          <div className="image-container p-0 m-0">
+            <img src={homeImages.concursos} alt="concursos" />{" "}
+            <div className="pieFoto">Concursos</div>
+          </div>
+        </Link>
+        <img src={homeImages.software} alt="sofware" className="t6" />
+        <div className=" t8">
+          <div className="image-container p-0 m-0">
+            <a
+              href="https://yain09.github.io/PortfolioDev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={homeImages.dev} alt="desarrollo" />{" "}
+              <div className="pieFoto" style={{ color: "black" }}>
+                web dev
+              </div>
+            </a>
+          </div>
+        </div>
+      </Container>
+    </>
+  );
+}
+
+export default BentoLayout;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\BlockB.jsx:
+import { Row, Col, Container } from "react-bootstrap";
+function BlockB() {
+  return (
+    <Container>
+      <Row className="text-start font-monospace align-items-end">
+        <Col xs="12" md="6">
+          <p className="m-0 p-0">arquitecto</p>
+          <p className="fs-1 m-0 p-0">Yain Godoy</p>
+        </Col>
+        <Col xs="12" md="6" className="text-start ">
+          <p className="m-0 p-0 align-bottom">
+            portfolio profesional <br />
+            de arquitectura
+          </p>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
+
+export default BlockB;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Cabecera.jsx:
+import {
+  Modal,
+  Navbar,
+  Nav,
+  Container,
+  Row,
+  Col,
+  NavDropdown,
+  Button,
+} from "react-bootstrap";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
+import { useState } from "react";
+import yo from "../img/home/yaingodoy.webp";
+import {
+  IoMailUnreadOutline,
+  IoCallOutline,
+  IoLocationOutline,
+  IoLogoLinkedin,
+  IoHomeOutline,
+} from "react-icons/io5";
+
+function Cabecera() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <Navbar bg="black" data-bs-theme="dark" style={{ height: "50px" }}>
+      <Container className="fluid">
+        <Row className="w-100 d-flex m-0">
+          <Col
+            xs={2}
+            className="d-flex my-0 align-content-center align-items-center text-start rownav"
+          >
+            <Nav>
+              <Link to="/Portfolio">
+                <IoHomeOutline
+                  size={30}
+                  color={"white"}
+                  style={{ marginRight: "15px" }}
+                >
+                  {" "}
+                </IoHomeOutline>
+              </Link>
+            </Nav>
+            <NavDropdown
+              className="text-white"
+              title={<GiHamburgerMenu size={30} />}
+              id="basic-nav-dropdown"
+            >
+              <NavDropdown.Item className="text-black" as={Link} to="/model">
+                Modelado 3D
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                className="text-black"
+                as={Link}
+                to="/freelance"
+              >
+                Ejercicio independiente
+              </NavDropdown.Item>
+              <NavDropdown.Item className="text-black" as={Link} to="/employee">
+                Relación de dependencia
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                className="text-black"
+                as={Link}
+                to="/concursos"
+              >
+                Concursos
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Col>
+          <Col xs={6}></Col>
+          <Col xs={4} className="p-0">
+            <Nav
+              className="me-auto align-items-center"
+              style={{ justifyContent: "flex-end" }}
+            >
+              <Nav.Link className="text-white px-0 " onClick={handleShow}>
+                <Button
+                  variant="outline-light"
+                  style={{ height: "35px" }}
+                  className="p-1 mx-1"
+                >
+                  {" "}
+                  contacto{" "}
+                </Button>
+              </Nav.Link>
+              <Nav.Link className="pr-0 rownav">
+                <Button
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1Obne4S8ePzHwN-T8RQu5X2cdJNiV1Z2d/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                  variant="outline-light"
+                  style={{ height: "35px", marginRight: "10px" }}
+                  className="p-1 m-0"
+                >
+                  {" "}
+                  CV{" "}
+                </Button>
+              </Nav.Link>
+
+              <Modal show={show} onHide={handleClose} animation={false}>
+                <Modal.Header closeButton>
+                  <Modal.Title
+                    style={{ fontFamily: "Montserrat", fontWeight: "300" }}
+                  >
+                    YAIN GODOY
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <Row className="w-100 align-items-center m-0">
+                    <Col xs={8} className="p-0">
+                      <div className="pb-3">
+                        <p
+                          className="icon"
+                          style={{ display: "inline", paddingBottom: "10px" }}
+                        >
+                          <IoCallOutline style={{ marginRight: "7px" }} />
+                        </p>
+                        <p style={{ display: "inline" }}>+54 9 342 4473227</p>
+                      </div>
+                      <div className="pb-3">
+                        <p className="icon" style={{ display: "inline" }}>
+                          {" "}
+                          <IoMailUnreadOutline
+                            style={{ marginRight: "7px" }}
+                          />{" "}
+                        </p>
+                        <p style={{ display: "inline" }}>yaingodoy@gmail.com</p>
+                      </div>
+                      <div className="d-flex">
+                        <p className="icon">
+                          <IoLocationOutline style={{ marginRight: "7px" }} />
+                        </p>
+                        <p>
+                          
+                          Santo Tomé, Santa Fe
+                          <br />
+                          Argentina
+                        </p>
+                      </div>
+                      <IoLogoLinkedin style={{ fontSize: "1.5rem" }} />{" "}
+                      <a
+                        target="_blank"
+                        rel="noreferrer"
+                        href="https://www.linkedin.com/in/yain-godoy/"
+                        style={{ color: "black" }}
+                      >
+                        {" "}
+                        in/yain-godoy{" "}
+                      </a>
+                    </Col>
+                    <Col xs={4} className="p-0">
+                      <img src={yo} alt="" className="yo" />
+                    </Col>
+                  </Row>
+                </Modal.Body>
+              </Modal>
+              
+            </Nav>
+          </Col>
+        </Row>
+      </Container>
+    </Navbar>
+  );
+}
+
+export default Cabecera;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Card.jsx:
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Concurso.jsx:
+import "../style/modals.scss";
+import React, { useState } from "react";
+import { Container, Carousel, Image } from "react-bootstrap";
+import { cpImages, eeImages } from "./imagenes";
+import ImageModal from "./ImageModal"; // Importar el nuevo componente
+import cpic from "../img/concursos/cp/vertical/cp00.webp";
+import espescuela from "../img/concursos/ee/vertical/ee00.webp";
+import espescuelaHD from "../img/concursos/ee/vertical/hd/ee.jpg";
+
+const Concurso = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentImages, setCurrentImages] = useState([]);
+
+  const handleImageClick = (images, index) => {
+    setCurrentImages(images);
+    setCurrentIndex(index);
+    setShowModal(true);
+  };
+
+  const handleClose = () => setShowModal(false);
+
+  const handleSelect = (selectedIndex) => {
+    setCurrentIndex(selectedIndex);
+  };
+
+  return (
+    <Container className="grid-concursos">
+      <div className="texto">
+        <h4 className="titulo" style={{ display: "inline" }}>
+          CPIC{" "}
+        </h4>
+        <p style={{ display: "inline" }}> 2016 </p>
+        <p className="mt-2">
+          Ganador de la Primera Mención en el Concurso Nacional de Anteproyecto
+          Nueva sede CPIC en conjunto con un equipo de 8 personas. En mi caso
+          estuve acargo de:
+        </p>
+        <ul>
+          <li>Coordinar las tareas de los participantes.</li>
+          <li>Producción de planimetrías.</li>
+          <li>Renderizado.</li>
+        </ul>
+      </div>
+
+      <a href="" className="pdf">
+        <Image src={cpic} />
+      </a>
+
+      <div className="carousel-2" style={{ height: "100%", width: "100%" }}>
+        <Carousel>
+          {cpImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="d-block w-100"
+                onClick={() => handleImageClick(cpImages, index)}
+                style={{ cursor: "pointer" }}
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+
+      <div className="texto2" style={{ height: "100%" }}>
+        <h4 className="titulo" style={{ display: "inline" }}>
+          Espacio Escuela{" "}
+        </h4>
+        <p style={{ display: "inline" }}> 2012</p>
+        <p className="mt-2">
+          Primera Mención Concurso de Ideas Espacio Escuela del Seminario
+          "Desplazamientos y límites en el espacio educativo. Intersecciones
+          entre arquitectura y educación".{" "}
+        </p>
+      </div>
+
+      <a href={espescuelaHD} target="_blank" rel="noreferrer" className="t2">
+        <Image src={espescuela} />
+      </a>
+
+      <div className="carousel">
+        <Carousel>
+          {eeImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img
+                src={image.src}
+                alt={image.alt}
+                className="d-block w-100"
+                onClick={() => handleImageClick(eeImages, index)}
+                style={{ cursor: "pointer" }}
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+
+      {/* Usar el componente ImageModal */}
+      <ImageModal
+        show={showModal}
+        onClose={handleClose}
+        images={currentImages}
+        currentIndex={currentIndex}
+        onSelect={handleSelect}
+      />
+    </Container>
+  );
+};
+
+export default Concurso;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Empleado.jsx:
+import React, { useState, useEffect } from "react";
+import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
+import Image from "react-bootstrap/Image";
+import { rukaImages, sjImages } from "./imagenes";
+import sj00 from "../img/empleado/sj/sj00.png";
+import sj00b from "../img/empleado/sj/sj00b.png";
+
+function Empleado() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const textStyle = {
+    display:
+      windowWidth > 1200 || windowWidth < 992 ? "inline" : "none !important",
+    fontSize: "1rem",
+  };
+
+  const images2 = [sjImages[2], sjImages[3], sjImages[4]];
+  return (
+    <Container className="grid-empleado">
+      <div className="texto">
+        <h4 className="titulo" style={{ display: "inline" }}>
+          Ruka{" "}
+        </h4>
+        <p style={{ textStyle }}> oficina de Arquitectura</p>
+        <p style={{ display: "inline" }}> 2013-2015</p>
+        <p className="mt-2">
+          En este estudio de arquitectura realicé un proyecto, sus pliegos
+          municipales y detalles constructivos para una vividenda en el country
+          Aires del Llano de la localidad de Santo Tomé, Santa Fe.
+        </p>
+        <p>
+          También realicé consultorías de diseño para la sucursal de ReMax
+          Futuro, Cómputo y presupuesto de proyectos ejecutivos y análisis de
+          propuestas de inversión sobre terrenos.
+        </p>
+      </div>
+      <div className="carfree01">
+        <Carousel data-bs-theme="dark">
+          {rukaImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+      <div className="texto2" style={{ height: "100%" }}>
+        <h4 className="titulo" style={{ display: "inline" }}>
+          Arq. Doña{" "}
+        </h4>
+        <p style={{ display: "inline" }}> 2019</p>
+
+        <p className="mt-2">
+          En mi rol, proporcioné asistencia a profesionales en el desarrollo de
+          proyectos al crear esquemas para entrevistas y planos de anteproyecto
+          en un parque solar modelo ubicado en la fábrica de paneles solares en
+          San Juan. Además, colaboré en la planificación de los cercos
+          perimetrales para una planta solar de alta tensión.{" "}
+        </p>
+      </div>
+      <div className="carfree02">
+        <Carousel data-bs-theme="dark">
+          {images2.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt="" />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+      <a href={sj00} target="_blank" rel="noreferrer" className="pdf">
+        <Image src={sj00b} />
+      </a>
+    </Container>
+  );
+}
+
+export default Empleado;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\ImageModal.jsx:
+import React from "react";
+import { Modal, Carousel } from "react-bootstrap";
+
+const ImageModal = ({ show, onClose, images, currentIndex, onSelect }) => {
+  return (
+    <Modal show={show} onHide={onClose} size="xl" centered>
+      <Carousel
+        className="image-modal-body"
+        activeIndex={currentIndex}
+        onSelect={onSelect}
+      >
+        {images.map((image, index) => (
+          <Carousel.Item key={index}>
+            <img
+              src={image.hqSrc || image.src}
+              alt={image.alt}
+              className="d-block mx-auto modal-image"
+            />
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </Modal>
+  );
+};
+
+export default ImageModal;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\imagenes.js:
+const importImages = (r) =>
+  r.keys().map((key) => ({
+    src: r(key),
+    alt: key.replace("./", "").replace(/\.[^/.]+$/, ""),
+  }));
+
+// Carga de imágenes de distintas carpetas
+const homeImages = {
+  yaingodoy: require("../img/home/yaingodoy.webp"),
+  maqueta3d: require("../img/home/maqueta3D.webp"),
+  freelance: require("../img/home/freelance.webp"),
+  empleado: require("../img/home/empleado.webp"),
+  concursos: require("../img/home/concursos.webp"),
+  software: require("../img/home/software.webp"),
+  dev: require("../img/home/dev.webp"),
+};
+const homeImagesHD = {
+  yaingodoy: require("../img/home/hd/yaingodoy.png"),
+  maqueta3d: require("../img/home/hd/maqueta3D.jpg"),
+  freelance: require("../img/home/hd/freelance.jpg"),
+  empleado: require("../img/home/hd/empleado.jpg"),
+  concursos: require("../img/home/hd/concursos.jpg"),
+  software: require("../img/home/hd/software.png"),
+  dev: require("../img/home/hd/dev.png"),
+};
+
+// Imágenes SD
+const gmImages = importImages(
+  require.context("../img/freelance/German", false, /\.(webp|jpg|png)$/)
+);
+const jfImages = importImages(
+  require.context("../img/freelance/Juanfran", false, /\.(webp|jpg|png)$/)
+);
+const mcImages = importImages(
+  require.context("../img/freelance/San Javier", false, /\.(webp|jpg|png)$/)
+);
+const cpImages = importImages(
+  require.context("../img/concursos/cp", false, /\.(webp|jpg|png)$/)
+);
+const eeImages = importImages(
+  require.context("../img/concursos/ee", false, /\.(webp|jpg|png)$/)
+);
+const rukaImages = importImages(
+  require.context("../img/empleado/ruka", false, /\.(webp|jpg|png)$/)
+);
+const sjImages = importImages(
+  require.context("../img/empleado/sj", false, /\.(webp|jpg|png)$/)
+);
+const bimImages = importImages(
+  require.context("../img/3d/bim", false, /\.(webp|jpg|png)$/)
+);
+const mitreImages = importImages(
+  require.context("../img/3d/mitre", false, /\.(webp|jpg|png)$/)
+);
+
+// Imágenes HD
+const gmImagesHD = importImages(
+  require.context("../img/freelance/German/hd", false, /\.(webp|jpg|png)$/)
+);
+const jfImagesHD = importImages(
+  require.context("../img/freelance/Juanfran/hd", false, /\.(webp|jpg|png)$/)
+);
+const mcImagesHD = importImages(
+  require.context("../img/freelance/San Javier/hd", false, /\.(webp|jpg|png)$/)
+);
+const cpImagesHD = importImages(
+  require.context("../img/concursos/cp/hd", false, /\.(webp|jpg|png)$/)
+);
+
+const eeImagesHD = importImages(
+  require.context("../img/concursos/ee/hd", false, /\.(webp|jpg|png)$/)
+);
+
+const rukaImagesHD = importImages(
+  require.context("../img/empleado/ruka/hd", false, /\.(webp|jpg|png)$/)
+);
+const sjImagesHD = importImages(
+  require.context("../img/empleado/sj/hd", false, /\.(webp|jpg|png)$/)
+);
+const bimImagesHD = importImages(
+  require.context("../img/3d/bim/hd", false, /\.(webp|jpg|png)$/)
+);
+const mitreImagesHD = importImages(
+  require.context("../img/3d/mitre/hd", false, /\.(webp|jpg|png)$/)
+);
+
+export {
+  homeImages,
+  homeImagesHD,
+  gmImages,
+  gmImagesHD,
+  jfImages,
+  jfImagesHD,
+  mcImages,
+  mcImagesHD,
+  cpImages,
+  cpImagesHD,
+  eeImages,
+  eeImagesHD,
+  rukaImages,
+  rukaImagesHD,
+  sjImages,
+  sjImagesHD,
+  bimImages,
+  bimImagesHD,
+  mitreImages,
+  mitreImagesHD,
+};
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Independiente.jsx:
+import React, { useState, useEffect } from "react";
+import { gmImages, jfImages, mcImages } from "./imagenes";
+import { Carousel, Container } from "react-bootstrap";
+import ModalComponent from "./ModalComponent";
+
+function Independiente() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const textStyle = {
+    display: windowWidth > 1200 || windowWidth < 992 ? "block" : "none",
+  };
+  const [showModal, setShowModal] = useState(false);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+
+  const handleImageClick = (index) => {
+    setSelectedImageIndex(index);
+    setShowModal(true);
+  };
+  const handleSelect = (selectedIndex) => {
+    setSelectedImageIndex(selectedIndex);
+  };
+
+  return (
+    <>
+      <Container className="grid-free">
+        <div className="texto">
+          <h4 className="titulo" style={{ display: "inline" }}>
+            Casa L{" "}
+          </h4>
+          <p style={{ display: "inline" }}> 2015-2018</p>
+          <p className="mt-2">
+            Vivienda individual financiada bajo plan de viviendas Pro.Cre.Ar.
+            ubicada en la localidad de Arrollo Leyes, de la provincia de Santa
+            Fe.{" "}
+          </p>
+          <p>
+            La complejidad estaba en resolver la construcción en 2 etapas, cuya
+            segunda iteración incorporara la cochera, deposito y piscina. <br />
+          </p>
+
+          <p>
+            <a
+              className="a"
+              href="https://photos.google.com/share/AF1QipNviXv2NRA46Zk1jXoBxtTs4sylyCinkAPwC1Qnq7WzhgN5WToD0--a-_hOE5ySEw?key=QlROdXZjeUhSQVNLZ3NrRVFBYWRQRlR0MVJmWUdB"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Aqui{" "}
+            </a>
+            se puede ver el proceso de construcción de la obra.
+            {/* La primer etapa de este proyecto fue desarrollada en colaboración con
+          el estudio Farqtory que llevó adelante la conduccion técnica. */}
+          </p>
+        </div>
+
+        <div className="carfree01">
+          <Carousel activeIndex={selectedImageIndex} onSelect={handleSelect}>
+            {gmImages.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img
+                  className="d-block w-100"
+                  src={image.src}
+                  alt={image.alt}
+                  onClick={() => handleImageClick(index)}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+        <div className="texto2">
+          <h4 className="titulo" style={{ display: "inline" }}>
+            Reforma Cocina-Comedor
+          </h4>{" "}
+          <p style={{ display: "inline" }}> 2022 </p>
+          <p className="mt-2">
+            Proyecto de refuncionalización de Cocina en vivienda premoldeada,
+            donde se buscaba mejorar la distribución de los artefactos y
+            circulaciones.
+          </p>{" "}
+          <p>
+            Los desafíos radicaban en las dimensiones existentes, los elementos
+            premoldeados, el presupuesto ajustado y en brindar los documentos
+            apropiados para que el comitente sea capaz de hacer el seguimiento
+            de la obra.
+          </p>
+          <p style={textStyle}>
+            La documentación de la propuesta se contenía toda la información
+            necesaria para el seguimiento de la obra, la confección del
+            mobiliario, la instalación sanitaria, eléctrica y la construcción
+            del separador de ambientes.
+          </p>
+        </div>
+        <div className="texto3">
+          <h4 className="titulo" style={{ display: "inline" }}>
+            Ampliación ASOEM
+          </h4>{" "}
+          <p style={{ display: "inline" }}>2019</p>
+          <p className="mt-2">
+            Ubicada en San Javier, la propuesta contemplaba la incorporación de
+            nuevos locales tanto para servicios existentes como nuevos, la
+            incorporación de ingresos independientes para cada uno de los
+            servicios, y la re-estructuración de los flujos internos.
+          </p>
+          <p>
+            Se pedia incorporar un ingreso ceremonial para el salon de fiestas
+            existente, re definir la zona de la administración gremial
+            incorporando oficina y sala de reuniones, y ubicar un nuevo sector
+            de capacitaciones con al menos un aula para 15 personas.
+          </p>
+        </div>
+        <div className="carfree02">
+          <Carousel data-bs-theme="dark">
+            {jfImages.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img
+                  className="d-block w-100"
+                  src={image.src}
+                  alt={image.alt}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+        <div className="carfree03">
+          <Carousel>
+            {mcImages.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img
+                  className="d-block w-100"
+                  src={image.src}
+                  alt={image.alt}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+
+        {/* <ModalComponent
+          show={showModal}
+          onHide={() => setShowModal(false)}
+          images={images}
+          selectedImageIndex={selectedImageIndex}
+          handleSelect={handleSelect}
+        /> */}
+
+        <style>
+          {`
+          .modal-content {
+            background: none;
+          }
+        `}
+        </style>
+      </Container>
+    </>
+  );
+}
+
+export default Independiente;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\ModalComponent.jsx:
+import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import { Modal, Button } from 'react-bootstrap';
+
+const ModalComponent = ({ show, onHide, images, selectedImageIndex, handleSelect }) => {
+  return (
+    <Modal show={show} onHide={onHide}>
+      <Modal.Header closeButton>
+        <Modal.Title>Imagen seleccionada</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Carousel activeIndex={selectedImageIndex} onSelect={handleSelect}>
+          {images.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img
+                className="d-block w-100"
+                src={image.src}
+                alt={image.alt}
+                style={{ width: '80%', height: '80%' }}
+              />
+              <Carousel.Caption>
+                <h3>{image.caption}</h3>
+                <p>{image.description}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={onHide}>
+          Cerrar
+        </Button>
+      </Modal.Footer>
+    </Modal>
+  );
+};
+
+export default ModalComponent;
+
+
+Contenido de C:\Dev\portfolio\src\scripts\Model3D.jsx:
+import React, { useState, useEffect } from "react";
+import Container from "react-bootstrap/Container";
+import Carousel from "react-bootstrap/Carousel";
+import miniatura3D from "../img/3d/thumbnail.webp";
+import miniatura3D2 from "../img/3d/thumbnail2.webp";
+import miniatura3D3 from "../img/3d/thumbnail3.webp";
+import ReactPlayer from "react-player";
+import { bimImages, mitreImages } from "./imagenes";
+
+function Model3D() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const textStyle = {
+    display: windowWidth > 1200 || windowWidth < 992 ? "block" : "none",
+  };
+  const fcmitre = {
+    display: windowWidth > 530 ? "block" : "none",
+  };
+
+  return (
+    <Container className="grid3d">
+      <div className="texto">
+        {" "}
+        <h4 className="titulo">Puerto Santa Fe</h4>
+        <p>
+          Animación realizada con Vray, el modelo se desarrolló a partir de
+          planos municipales, imágenes de Google Earth y otras fuentes.
+        </p>
+      </div>
+      <div className="videosf">
+        <ReactPlayer
+          light={
+            <img src={miniatura3D} alt="Thumbnail" className="miniatura" />
+          }
+          className="react-player"
+          url="https://youtu.be/HyHBKJPXrM4?vq=hd1080"
+          loop
+          playing
+          width="100%"
+          height="100%"
+          controls
+        />
+      </div>
+      <div className="texto2">
+        <h4 className="titulo">Conjunto de viviendas</h4>
+        <p>
+          Edificio modelado en Revit y SketchUp para mi tesis de Grado
+          <a
+            className="a"
+            href="https://drive.google.com/file/d/1HXv1WjWB5Un482jWx9PADN4jPBPRva6G/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            {" "}
+            BIM+Arquitectura {" "}
+          </a>
+          a partir del pliego de licitación de un proyecto publico con el fin de
+          simular la hipótesis de la tesis.
+        </p>
+
+        <p style={textStyle}>
+          La animación se realizó a partir del modelo de SketchUp, mientras que
+          las imagenes son del modelo Revit.
+        </p>
+      </div>
+      <div className="carousel">
+        <Carousel data-bs-theme="dark">
+          {bimImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              <img className="d-block w-100" src={image.src} alt={image.alt} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+      <div className="videotesis">
+        <ReactPlayer
+          light={
+            <img src={miniatura3D2} alt="Thumbnail" className="miniatura" />
+          }
+          className="react-player"
+          url="https://youtu.be/rbRCYFgTVss?vq=hd1080"
+          loop
+          playing
+          width="100%"
+          height="100%"
+          controls={true}
+          quality="1080p"
+          style={{ borderRadius: "10px" }}
+          
+        />
+      </div>
+      <div className="texto3">
+        <h4 className="titulo">Estación Ferroviaria Mitre</h4>
+        <p>Modelado en Sketchup y renderizado con Vray. </p>
+        <p style={fcmitre}>
+          Es parte de un proyecto universitario de intervención sobre el
+          edificio patrimonial de la ciudad de Santa Fe, Argentina.
+        </p>
+      </div>
+      <div className="youtube">
+        <ReactPlayer
+          light={
+            <img src={miniatura3D3} alt="Thumbnail" className="miniatura" />
+          }
+          className="react-player"
+          url="https://youtu.be/bA0_Guc_C3Q?vq=hd1080"
+          playing
+          width="100%"
+          height="100%"
+          volume={0.1}
+          controls
+        />
+      </div>
+      <div className="carousel-2">
+        <Carousel data-bs-theme="dark">
+          {mitreImages.map((image, index) => (
+            <Carousel.Item key={index}>
+              {" "}
+              {/* Cambia `image2` a `index` */}
+              <img className="d-block w-100" src={image.src} alt={image.alt} />
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
+    </Container>
+  );
+}
+
+export default Model3D;
+
+
+Contenido de C:\Dev\portfolio\src\style\grid.scss:
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+$bg: #ffffff;
+$bg2: #242424;
+$gris: #d0d0d0;
+$gris2: #f3f3f3;
+
+.bg-dot {
+  background-color: $bg;
+  background-image: radial-gradient($gris 1.5px, transparent 1.5px);
+  background-size: 202.5px 102.5px;
+}
+
+body {
+  background-color: $bg;
+  background-image: radial-gradient($gris 1.5px, transparent 1.5px);
+  background-size: 50px 50px;
+  align-items: center;
+  background-position: center 20px;
+  height: 100%;
+}
+
+p,
+li {
+  font-family: "Montserrat";
+}
+.fluid.container {
+  height: 60px;
+}
+
+i31ame {
+  border-radius: 5px;
+}
+
+.container {
+  justify-content: center;
+}
+.image-gallery,
+.image-gallery-content,
+.image-gallery-slide-wrapper,
+.image-gallery-slides,
+.image-gallery-center,
+.image-gallery-image {
+  height: 100%;
+}
+.image-gallery-image {
+  object-fit: cover !important;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.pieFoto {
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+.titulo {
+  font-size: calc(0.8rem + 0.3vw);
+}
+div p {
+  margin-bottom: 7px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 1;
+}
+.a {
+  color: rgb(194, 7, 69);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.gridHome {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "t1 t1 t2"
+    "t1 t1 t2"
+    "t1 t1 t2"
+    "t3 t3 t3"
+    "t3 t3 t3"
+    "t3 t3 t3"
+    "t7 t4 t4"
+    "t7 t4 t4"
+    "t7 t5 t5"
+    "t7 t5 t5"
+    "t6 t6 t8"
+    "t6 t6 t8";
+}
+.gridHeader {
+  display: flex;
+  justify-content: space-around;
+}
+.grid3d {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto texto texto"
+    "texto texto texto"
+    "videoSF videoSF videoSF"
+    "videoSF videoSF videoSF"
+    "videoSF videoSF videoSF"
+    ". . . "
+    ". . . "
+    "texto2 texto2 texto2"
+    "texto2 texto2 texto2"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "vidtesis vidtesis vidtesis"
+    "vidtesis vidtesis vidtesis"
+    "vidtesis vidtesis vidtesis"
+    ". . . "
+    ". . . "
+    "texto3 youtube youtube"
+    "texto3 youtube youtube"
+    "carousel-2 carousel-2 carousel-2"
+    "carousel-2 carousel-2 carousel-2"
+    "carousel-2 carousel-2 carousel-2";
+}
+.grid-free {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto3 texto3 texto3"
+    "carfree03 carfree03 carfree03"
+    "carfree03 carfree03 carfree03"
+    "carfree03 carfree03 carfree03"
+    ". . ."
+    ". . ."
+    "texto2 texto2 texto2"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    ". . ."
+    ". . ."
+    "texto texto texto"
+    "texto texto texto"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01";
+}
+.grid-empleado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto2 texto2 texto2"
+    "pdf pdf pdf"
+    "pdf pdf pdf"
+    "pdf pdf pdf"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    "carfree02 carfree02 carfree02"
+    ". . ."
+    ". . ."
+    "texto texto texto"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01"
+    "carfree01 carfree01 carfree01";
+}
+.grid-concursos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas:
+    "texto texto texto"
+    "texto texto texto"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    "pdf carousel-2 carousel-2"
+    ". . . "
+    ". . . "
+    "texto2 texto2 t2"
+    "texto2 texto2 t2"
+    "texto2 texto2 t2"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    "carousel carousel carousel"
+    ". . . "
+    ". . . ";
+}
+
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+.t6,
+.t7,
+.t8,
+.texto,
+.texto2,
+.texto3,
+.pdf {
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.t1,
+.texto,
+.texto2,
+.texto3 {
+  text-align: left;
+  font-size: small;
+  line-height: 120%;
+  padding: 5px;
+}
+
+.t1 {
+  grid-area: t1;
+}
+.t2 {
+  grid-area: t2;
+}
+.t3 {
+  grid-area: t3;
+}
+.t4 {
+  grid-area: t4;
+}
+.t5 {
+  grid-area: t5;
+}
+.t6 {
+  grid-area: t6;
+}
+.t7 {
+  grid-area: t7;
+}
+.t8 {
+  grid-area: t8;
+}
+a img:hover,
+.miniatura:hover,
+.t3:hover,
+.t4:hover,
+.t5:hover,
+.t7:hover {
+  box-shadow: 0px 0px 10px rgba(7, 7, 7, 0.7);
+  transition: ease-out 150ms;
+}
+.t7 div img :hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.texto {
+  grid-area: texto;
+}
+.texto2 {
+  grid-area: texto2;
+}
+.texto3 {
+  grid-area: texto3;
+}
+.videosf {
+  grid-area: videoSF;
+}
+.videotesis {
+  grid-area: vidtesis;
+}
+.react-player {
+  height: 100%;
+}
+.miniatura {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.youtube {
+  grid-area: youtube;
+}
+
+.carousel {
+  grid-area: carousel;
+}
+.carousel-2 {
+  grid-area: carousel-2;
+}
+.carfree01 {
+  grid-area: carfree01;
+}
+.carfree02 {
+  grid-area: carfree02;
+}
+
+.carfree03 {
+  grid-area: carfree03;
+}
+.pdf {
+  grid-area: pdf;
+  max-width: fit-content;
+}
+.icon {
+  align-self: center;
+}
+
+.yo {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.arq {
+}
+
+@media (width > 768px) {
+  .grid,
+  .grid3d,
+  .grid-free {
+    grid-gap: 10px;
+    padding: 12px !important;
+  }
+  iframe,
+  .t1,
+  .t2,
+  .t3,
+  .t4,
+  .t5,
+  .t6,
+  .t7,
+  .t8,
+  .texto,
+  .texto2,
+  .texto3,
+  .carousel,
+  img,
+  .carousel-2,
+  .pdf {
+    border-radius: 10px;
+  }
+  .fs-4 {
+    font-size: calc(1.275rem + 0.3vw);
+  }
+  .t1,
+  .texto,
+  .texto2,
+  .texto3 {
+    text-align: left;
+    font-size: small;
+    padding: 10px;
+  }
+}
+
+@media (width > 992px) {
+  .gridHome {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:
+      "t1 t1 t2 t7 t4 t4"
+      "t1 t1 t2 t7 t4 t4"
+      "t1 t1 t2 t7 t5 t5"
+      "t3 t3 t3 t7 t5 t5"
+      "t3 t3 t3 t6 t6 t8"
+      "t3 t3 t3 t6 t6 t8";
+  }
+  .grid3d {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "texto texto videoSF videoSF videoSF videoSF"
+      "carousel carousel carousel carousel texto2 texto2"
+      "carousel carousel carousel carousel texto2 texto2"
+      "carousel carousel carousel carousel vidtesis vidtesis"
+      "carousel carousel carousel carousel vidtesis vidtesis"
+      "texto3 texto3 carousel-2 carousel-2 carousel-2 carousel-2"
+      "texto3 texto3 carousel-2 carousel-2 carousel-2 carousel-2"
+      "youtube youtube carousel-2 carousel-2 carousel-2 carousel-2"
+      "youtube youtube carousel-2 carousel-2 carousel-2 carousel-2";
+  }
+  .grid-free {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01"
+      "texto texto carfree01 carfree01 carfree01 carfree01";
+  }
+  .grid-empleado {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto2 texto2 pdf pdf pdf pdf "
+      "texto2 texto2 pdf pdf pdf pdf "
+      "carfree02 carfree02 pdf pdf pdf pdf "
+      "carfree02 carfree02 pdf pdf pdf pdf "
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto";
+  }
+  .grid-concursos {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas:
+      "texto texto texto texto2 texto2 t2"
+      "texto texto texto texto2 texto2 t2"
+      "pdf carousel-2 carousel-2 texto2 texto2 t2"
+      "pdf carousel-2 carousel-2 carousel carousel carousel "
+      "pdf carousel-2 carousel-2 carousel carousel carousel"
+      "pdf carousel-2 carousel-2 carousel carousel carousel ";
+  }
+  .pdf {
+    min-width: none;
+  }
+  .t0 {
+    height: auto;
+    width: auto;
+  }
+  .titulo {
+    font-size: calc(0.9rem + 0.3vw);
+    font-weight: 500;
+  }
+  .t1,
+  .texto,
+  .texto2,
+  .texto3 {
+    text-align: left;
+    font-size: small;
+    padding: 15px;
+  }
+}
+@media (width < 992px) {
+  .rownav {
+    padding: 0px !important;
+  }
+}
+
+@media (width > 1200px) {
+  .titulo {
+    font-size: calc(1.25rem + 0.3vw);
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 925px !important;
+    padding: 10px !important;
+    grid-auto-rows: 70px !important;
+  }
+  div .arq {
+    width: calc((6 * 140px) + (5 * 7px));
+    padding-left: 12px;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 140px);
+    grid-template-rows: minmax(70px, auto);
+    gap: 7px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1125px !important;
+    padding: 10px !important;
+    grid-auto-rows: 86px !important;
+  }
+  .arq {
+    width: calc((6 * 172px) + (5 * 8.6px)) !important;
+    padding-left: 12px !important;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 172px) !important;
+    grid-template-rows: minmax(86px, auto) !important;
+    gap: 8.6px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px !important;
+    padding: 10px !important;
+    grid-auto-rows: 100px !important;
+  }
+  .arq {
+    width: calc((6 * 200px) + (5 * 10px)) !important;
+    padding-left: 15px !important;
+  }
+  .gridHome,
+  .grid-concursos,
+  .grid-empleado,
+  .grid-free,
+  .grid3d {
+    grid-template-columns: repeat(6, 200px) !important;
+    grid-template-rows: minmax(100px, auto) !important;
+  }
+}
+
+
+Contenido de C:\Dev\portfolio\src\style\modals.scss:
+.modal-content {
+  background-color: transparent !important;
+  border: none !important;
+  max-height: 90vh !important;
+  object-fit: contain; // Mantiene proporciones
+}
+.carousel-inner {
+  border-radius: 10px !important;
+}
+.modal-body {
+  
+
+}
+.active .carousel-item{
+    max-width: 80%;
+    max-height: 90vh;
+      width: auto; // Tamaño real de la imagen
+  height: auto; // Tamaño real de la imagen
+  object-fit: contain; // Mantiene proporciones
+}
+
+
+Contenido de C:\Dev\portfolio\src\App.css:
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+Contenido de C:\Dev\portfolio\src\App.js:
+import "./App.css";
+import Arquitectura from "./scripts/Arquitectura";
+import Cabecera from "./scripts/Cabecera";
+import BentoLayout from "./scripts/BentoLayout";
+import Model3D from "./scripts/Model3D";
+import { Route, Routes } from "react-router";
+import Empleado from "./scripts/Empleado";
+import Independiente from "./scripts/Independiente";
+import Concurso from "./scripts/Concurso";
+const Home = () => (
+  <>
+    <Arquitectura />
+    <BentoLayout />
+  </>
+);
+const Model = () => (
+  <>
+    <Arquitectura />
+    <Model3D />
+  </>
+);
+const Freelance = () => (
+  <>
+    <Arquitectura />
+    <Independiente />
+  </>
+);
+const Employee = () => (
+  <>
+    <Arquitectura />
+    <Empleado />
+  </>
+);
+const Concursos = () => (
+  <>
+    <Arquitectura />
+    <Concurso />
+  </>
+);
+
+function App() {
+  return (
+    <div className="App">
+      <Cabecera />
+      <div className="">
+      <Routes>
+        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/model" element={<Model />} />
+        <Route path="/freelance" element={<Freelance />} />
+        <Route path="/employee" element={<Employee />} />
+        <Route path="/concursos" element={<Concursos />} />
+      </Routes>
+    </div>
+    </div>
+  );
+}
+
+export default App;
+
+
+Contenido de C:\Dev\portfolio\src\App.test.js:
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+
+Contenido de C:\Dev\portfolio\src\index.css:
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  
+  ::selection {
+    background-color: chocolate;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.dropdown-menu.show {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(7, 7, 7, 0.7);
+}
+
+.dropdown-item a {
+  color: rgb(27, 27, 27);
+  text-decoration: none;
+}
+.dropdown-menu.show :hover {
+  background-color: lightgray;
+}
+
+
+Contenido de C:\Dev\portfolio\src\index.js:
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import "bootstrap/dist/css/bootstrap.min.css";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter } from "react-router-dom";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+|   - logo.svg (Imagen)
+
+Contenido de C:\Dev\portfolio\src\reportWebVitals.js:
+const reportWebVitals = onPerfEntry => {
+  if (onPerfEntry && onPerfEntry instanceof Function) {
+    import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
+      getCLS(onPerfEntry);
+      getFID(onPerfEntry);
+      getFCP(onPerfEntry);
+      getLCP(onPerfEntry);
+      getTTFB(onPerfEntry);
+    });
+  }
+};
+
+export default reportWebVitals;
+
+
+Contenido de C:\Dev\portfolio\src\setupTests.js:
+// jest-dom adds custom jest matchers for asserting on DOM nodes.
+// allows you to do things like:
+// expect(element).toHaveTextContent(/react/i)
+// learn more: https://github.com/testing-library/jest-dom
+import '@testing-library/jest-dom';
+
