@@ -24,3 +24,6 @@ yarn-error.log*
 
 #files
 *.psd
+
+#folders
+img/freelance/heavy
