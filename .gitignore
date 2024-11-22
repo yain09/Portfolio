@@ -26,4 +26,4 @@ yarn-error.log*
 *.psd
 
 #folders
-src/img/freelance/heavy
+src/img/freelance/heavy/*
