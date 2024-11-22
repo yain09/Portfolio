@@ -137,6 +137,12 @@ img {
   grid-gap: 5px;
   padding: 5px;
   grid-template-areas:
+    "texto4 texto4 texto4"
+    "carfree04 carfree04 carfree04"
+    "carfree04 carfree04 carfree04"
+    "carfree04 carfree04 carfree04"
+    ". . ."
+    ". . ."
     "texto2 texto2 texto2"
     "carfree02 carfree02 carfree02"
     "carfree02 carfree02 carfree02"
@@ -210,6 +216,7 @@ img {
 .texto,
 .texto2,
 .texto3,
+.texto4,
 .pdf,
 .carfree01,
 .carfree02,
@@ -224,11 +231,11 @@ img {
   overflow: hidden;
 }
 
-
 .t1,
 .texto,
 .texto2,
-.texto3 {
+.texto3,
+.texto4 {
   text-align: left;
   font-size: small;
   line-height: 120%;
@@ -282,16 +289,18 @@ a img:hover,
 .texto3 {
   grid-area: texto3;
 }
+.texto4 {
+  grid-area: texto4;
+}
 .videosf {
   grid-area: videoSF;
 }
 
 .videosf,
-.videotesis, {
+.videotesis {
   aspect-ratio: 830/430;
   box-shadow: 0px 0px 6px rgba(7, 7, 7, 0.7);
 }
-
 
 .videotesis {
   grid-area: vidtesis;
@@ -309,14 +318,13 @@ a img:hover,
 .youtube {
   grid-area: youtube;
   aspect-ratio: 830/430;
-  
 }
 
-.carousel-3 {
-  grid-area: carousel;
-}
 .carousel-2 {
   grid-area: carousel-2;
+}
+.carousel-3 {
+  grid-area: carousel;
 }
 .carfree01 {
   grid-area: carfree01;
@@ -324,9 +332,11 @@ a img:hover,
 .carfree02 {
   grid-area: carfree02;
 }
-
 .carfree03 {
   grid-area: carfree03;
+}
+.carfree04 {
+  grid-area: carfree04;
 }
 .pdf {
   grid-area: pdf;
@@ -362,9 +372,18 @@ a img:hover,
   .texto,
   .texto2,
   .texto3,
-  .carousel,
+  .texto4,
+  .pdf,
+  .carfree01,
+  .carfree02,
+  .carfree03,
+  .carfree04,
+  .videosf,
+  .videotesis,
+  .youtube,
+  .carousel-3,
+  .carousel-2 .carousel,
   img,
-  .carousel-2,
   .pdf {
     border-radius: 10px;
     overflow: hidden;
@@ -375,7 +394,8 @@ a img:hover,
   .t1,
   .texto,
   .texto2,
-  .texto3 {
+  .texto3,
+  .texto4 {
     text-align: left;
     font-size: small;
     padding: 10px;
@@ -416,18 +436,23 @@ a img:hover,
     grid-gap: 10px;
     padding: 10px;
     grid-template-areas:
-      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
-      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
-      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
-      "texto2 texto2 carfree02 carfree02 carfree02 carfree02"
-      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
-      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
-      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
-      "carfree03 carfree03 carfree03 carfree03 texto3 texto3"
-      "texto texto carfree01 carfree01 carfree01 carfree01"
-      "texto texto carfree01 carfree01 carfree01 carfree01"
-      "texto texto carfree01 carfree01 carfree01 carfree01"
-      "texto texto carfree01 carfree01 carfree01 carfree01";
+      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
+      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
+      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
+      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
+
+      "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
+      "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
+      "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
+      "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
+      "texto3 texto3 carfree03 carfree03 carfree03 carfree03"
+      "texto3 texto3 carfree03 carfree03 carfree03 carfree03"
+      "texto3 texto3 carfree03 carfree03 carfree03 carfree03"
+      "texto3 texto3 carfree03 carfree03 carfree03 carfree03"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto"
+      "carfree01 carfree01 carfree01 carfree01 texto texto";
   }
   .grid-empleado {
     grid-template-columns: repeat(6, 1fr);

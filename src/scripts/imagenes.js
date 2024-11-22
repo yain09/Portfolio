@@ -31,6 +31,9 @@ const gmImages = importImages(
 const jfImages = importImages(
   require.context("../img/freelance/Juanfran", false, /\.(webp|jpg|png)$/)
 );
+const aguImages = importImages(
+  require.context("../img/freelance/Agu", false, /\.(webp|jpg|png)$/)
+);
 const mcImages = importImages(
   require.context("../img/freelance/San Javier", false, /\.(webp|jpg|png)$/)
 );
@@ -59,6 +62,9 @@ const gmImagesHD = importImages(
 );
 const jfImagesHD = importImages(
   require.context("../img/freelance/Juanfran/hd", false, /\.(webp|jpg|png)$/)
+);
+const aguImagesHD = importImages(
+  require.context("../img/freelance/Agu/hd", false, /\.(webp|jpg|png)$/)
 );
 const mcImagesHD = importImages(
   require.context("../img/freelance/San Javier/hd", false, /\.(webp|jpg|png)$/)
@@ -91,6 +97,8 @@ export {
   gmImagesHD,
   jfImages,
   jfImagesHD,
+  aguImages,
+  aguImagesHD,
   mcImages,
   mcImagesHD,
   cpImages,

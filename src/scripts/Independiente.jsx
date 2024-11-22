@@ -6,6 +6,8 @@ import {
   jfImagesHD,
   mcImages,
   mcImagesHD,
+  aguImages,
+  aguImagesHD,
 } from "./imagenes";
 import { Carousel, Container } from "react-bootstrap";
 import ImageModal from "./ImageModal";
@@ -55,7 +57,8 @@ function Independiente() {
   return (
     <>
       <Container className="grid-free">
-        {/* Galería 1 */}
+        {/* Galería 1 German*/}
+
         <div className="texto">
           <h4 className="titulo" style={{ display: "inline" }}>
             Casa L{" "}
@@ -70,12 +73,19 @@ function Independiente() {
             La complejidad estaba en resolver la construcción en 2 etapas, cuya
             segunda iteración incorporara la cochera, depósito y piscina.
           </p>
+          <a
+            className="a"
+            href="https://photos.google.com/share/AF1QipNviXv2NRA46Zk1jXoBxtTs4sylyCinkAPwC1Qnq7WzhgN5WToD0--a-_hOE5ySEw?key=QlROdXZjeUhSQVNLZ3NrRVFBYWRQRlR0MVJmWUdB"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Aqui{" "}
+          </a>
+          se puede ver el proceso de construcción de la obra.
         </div>
 
         <div className="carfree01">
-          <Carousel
-          
-          >
+          <Carousel>
             {gmImages.map((image, index) => (
               <Carousel.Item key={index}>
                 <img
@@ -90,7 +100,7 @@ function Independiente() {
           </Carousel>
         </div>
 
-        {/* Galería 2 */}
+        {/* Galería 2  Juanfran*/}
         <div className="texto2">
           <h4 className="titulo" style={{ display: "inline" }}>
             Reforma Cocina-Comedor{" "}
@@ -119,15 +129,29 @@ function Independiente() {
           </Carousel>
         </div>
 
-        {/* Galería 3 */}
+        {/* Galería 3 ASOEM*/}
         <div className="texto3">
           <h4 className="titulo" style={{ display: "inline" }}>
             Ampliación ASOEM{" "}
           </h4>
           <p style={{ display: "inline" }}>2019</p>
           <p className="mt-2">
-            Ubicada en San Javier, la propuesta contemplaba la incorporación de
-            nuevos locales tanto para servicios existentes como nuevos.
+            El proyecto consistió en la reestructuración y ampliación de la sede
+            de la Mutual optimizando su funcionalidad y servicios.
+          </p>
+          <p>
+            Se reorganizó el sector administrativo en un bloque de dos niveles,
+            integrando áreas de trabajo, sala de reuniones y atención al
+            público.
+          </p>
+          <p>
+            Para el salón de fiestas, se diseñaron un nuevo ingreso, baños
+            diferenciados y la conexión con una cocina para catering.
+          </p>
+          <p>
+            Además, se incorporó un anexo destinado a la capacitación de socios,
+            con recepción, dos aulas y baños, distribuidos en dos niveles y con
+            ingreso compartido con el salón.
           </p>
         </div>
 
@@ -140,6 +164,41 @@ function Independiente() {
                   src={image.src}
                   alt={image.alt}
                   onClick={() => handleImageClick(mcImages, mcImagesHD, index)}
+                  style={{ cursor: "pointer" }}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
+
+        {/* Galería 4  Agustin*/}
+        <div className="texto4">
+          <h4 className="titulo" style={{ display: "inline" }}>
+            Ampliación Casa A²{" "}
+          </h4>
+          <p style={{ display: "inline" }}> 2024</p>
+          <p className="mt-2">
+            El proyecto contempló la ampliación de una vivienda con la
+            incorporación de un dormitorio con vestidor, un lavadero y un baño.
+          </p>
+          <p>
+            Se desarrollaron diversas propuestas para el cliente, y una vez
+            definida la opción final, se elaboraron los documentos planimétricos
+            necesarios para su ejecución.
+          </p>
+        </div>
+
+        <div className="carfree04">
+          <Carousel>
+            {aguImages.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img
+                  className="d-block w-100"
+                  src={image.src}
+                  alt={image.alt}
+                  onClick={() =>
+                    handleImageClick(aguImages, aguImagesHD, index)
+                  }
                   style={{ cursor: "pointer" }}
                 />
               </Carousel.Item>
