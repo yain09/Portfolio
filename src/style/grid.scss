@@ -351,6 +351,8 @@ a img:hover,
   width: 100%;
   padding: 0px;
   margin: 0px;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 @media (width > 768px) {

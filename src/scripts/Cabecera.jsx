@@ -106,63 +106,65 @@ function Cabecera() {
               </Nav.Link>
 
               <Modal show={show} onHide={handleClose} animation={false}>
-                <Modal.Header closeButton>
-                  <Modal.Title
-                    style={{ fontFamily: "Montserrat", fontWeight: "300" }}
-                  >
-                    YAIN GODOY
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <Row className="w-100 align-items-center m-0">
-                    <Col xs={8} className="p-0">
-                      <div className="pb-3">
-                        <p
-                          className="icon"
-                          style={{ display: "inline", paddingBottom: "10px" }}
+                <div style={{ backgroundColor: "white", borderRadius: "10px",width:"100%", minWidth:"400px" }}>
+                  <Modal.Header closeButton>
+                    <Modal.Title
+                      style={{ fontFamily: "Montserrat", fontWeight: "300" }}
+                    >
+                      YAIN GODOY
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body >
+                    <Row className="w-100 align-items-center m-0">
+                      <Col xs={8} className="p-0">
+                        <div className="pb-3">
+                          <p
+                            className="icon"
+                            style={{ display: "inline", paddingBottom: "10px" }}
+                          >
+                            <IoCallOutline style={{ marginRight: "7px" }} />
+                          </p>
+                          <p style={{ display: "inline" }}>+54 9 342 4473227</p>
+                        </div>
+                        <div className="pb-3">
+                          <p className="icon" style={{ display: "inline" }}>
+                            {" "}
+                            <IoMailUnreadOutline
+                              style={{ marginRight: "7px" }}
+                            />{" "}
+                          </p>
+                          <p style={{ display: "inline" }}>
+                            yaingodoy@gmail.com
+                          </p>
+                        </div>
+                        <div className="d-flex">
+                          <p className="icon">
+                            <IoLocationOutline style={{ marginRight: "7px" }} />
+                          </p>
+                          <p>
+                            Santo Tomé, Santa Fe
+                            <br />
+                            Argentina
+                          </p>
+                        </div>
+                        <IoLogoLinkedin style={{ fontSize: "1.5rem" }} />{" "}
+                        <a
+                          target="_blank"
+                          rel="noreferrer"
+                          href="https://www.linkedin.com/in/yain-godoy/"
+                          style={{ color: "black" }}
                         >
-                          <IoCallOutline style={{ marginRight: "7px" }} />
-                        </p>
-                        <p style={{ display: "inline" }}>+54 9 342 4473227</p>
-                      </div>
-                      <div className="pb-3">
-                        <p className="icon" style={{ display: "inline" }}>
                           {" "}
-                          <IoMailUnreadOutline
-                            style={{ marginRight: "7px" }}
-                          />{" "}
-                        </p>
-                        <p style={{ display: "inline" }}>yaingodoy@gmail.com</p>
-                      </div>
-                      <div className="d-flex">
-                        <p className="icon">
-                          <IoLocationOutline style={{ marginRight: "7px" }} />
-                        </p>
-                        <p>
-                          
-                          Santo Tomé, Santa Fe
-                          <br />
-                          Argentina
-                        </p>
-                      </div>
-                      <IoLogoLinkedin style={{ fontSize: "1.5rem" }} />{" "}
-                      <a
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://www.linkedin.com/in/yain-godoy/"
-                        style={{ color: "black" }}
-                      >
-                        {" "}
-                        in/yain-godoy{" "}
-                      </a>
-                    </Col>
-                    <Col xs={4} className="p-0">
-                      <img src={yo} alt="" className="yo" />
-                    </Col>
-                  </Row>
-                </Modal.Body>
+                          in/yain-godoy{" "}
+                        </a>
+                      </Col>
+                      <Col xs={4} className="p-0">
+                        <img src={yo} alt="" className="yo" />
+                      </Col>
+                    </Row>
+                  </Modal.Body>
+                </div>
               </Modal>
-              
             </Nav>
           </Col>
         </Row>
