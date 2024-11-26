@@ -141,6 +141,9 @@ img {
     "carfree04 carfree04 carfree04"
     "carfree04 carfree04 carfree04"
     "carfree04 carfree04 carfree04"
+    "planosAgu planosAgu planosAgu"
+    "planosAgu planosAgu planosAgu"
+    "planosAgu planosAgu planosAgu"
     ". . ."
     ". . ."
     "texto2 texto2 texto2"
@@ -241,7 +244,9 @@ img {
   line-height: 120%;
   padding: 5px;
 }
-
+.planosAgu {
+grid-area: planosAgu;
+}
 .t1 {
   grid-area: t1;
 }
@@ -440,9 +445,8 @@ a img:hover,
     grid-template-areas:
       "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
       "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
-      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
-      "texto4 texto4 carfree04 carfree04 carfree04 carfree04"
-
+      "planosAgu planosAgu carfree04 carfree04 carfree04 carfree04"
+      "planosAgu planosAgu carfree04 carfree04 carfree04 carfree04"
       "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
       "carfree02 carfree02 carfree02 carfree02 texto2 texto2"
       "carfree02 carfree02 carfree02 carfree02 texto2 texto2"

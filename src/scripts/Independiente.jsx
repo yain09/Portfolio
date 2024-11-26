@@ -8,6 +8,8 @@ import {
   mcImagesHD,
   aguImages,
   aguImagesHD,
+  aguplanoImages,
+  aguplanoImagesHD,
 } from "./imagenes";
 import { Carousel, Container } from "react-bootstrap";
 import ImageModal from "./ImageModal";
@@ -33,9 +35,74 @@ function Independiente() {
     };
   }, []);
 
-  // Mostrar u ocultar texto basado en el ancho de la ventana
-  const textStyle = {
-    display: windowWidth > 1200 || windowWidth < 992 ? "block" : "none",
+  // Determinar qué texto mostrar según el ancho de la ventana
+  const renderText = () => {
+    if (windowWidth > 1200 || windowWidth < 902) {
+      return (
+        <>
+          <p className="mt-2">
+            El proyecto contempló la ampliación de una vivienda con la
+            incorporación de un dormitorio con vestidor, un lavadero y un baño.
+          </p>
+          <p>
+            Se desarrollaron diversas propuestas para el cliente, y una vez
+            definida la opción final, se elaboraron los documentos planimétricos
+            necesarios para su ejecución.
+          </p>
+        </>
+      );
+    } else {
+      return (
+        <p className="mt-2">
+          El proyecto consistió en la ampliación de una vivienda, desarrollando
+          diversas alternativas y propuestas para el cliente, y elaborando la
+          documentación planimétrica necesaria para su ejecución.
+        </p>
+      );
+    }
+  };
+  const renderText2 = () => {
+    if (windowWidth > 1200 || windowWidth < 902) {
+      return (
+        <>
+          <p className="mt-2">
+            El proyecto consistió en la reestructuración y ampliación de la sede
+            de la Mutual optimizando su funcionalidad y servicios.
+          </p>
+          <p>
+            Se reorganizó el sector administrativo en un bloque de dos niveles,
+            integrando áreas de trabajo, sala de reuniones y atención al
+            público.
+          </p>
+          <p>
+            Para el salón de fiestas, se diseñaron un nuevo ingreso, baños
+            diferenciados y la conexión con una cocina para catering.
+          </p>
+          <p>
+            Además, se incorporó un anexo destinado a la capacitación de socios,
+            con recepción, dos aulas y baños, distribuidos en dos niveles y con
+            ingreso compartido con el salón.
+          </p>
+        </>
+      );
+    } else {
+      return (
+        <>
+          <p className="mt-2">
+            El proyecto consistió en la reestructuración y ampliación de la sede
+            de la Mutual, reorganizando el sector administrativo en un bloque de
+            dos niveles con áreas de trabajo, reuniones y atención al público.
+            También se optimizó el salón de fiestas mediante un nuevo ingreso,
+            baños diferenciados y conexión con una cocina para catering.
+          </p>{" "}
+          <p>
+            Se incorporó, además, un anexo destinado a la capacitación de
+            socios, que incluye recepción, aulas y baños distribuidos en dos
+            niveles, con ingreso compartido con el salón de fiestas.
+          </p>
+        </>
+      );
+    }
   };
 
   // Abrir el modal con imágenes seleccionadas
@@ -107,9 +174,12 @@ function Independiente() {
           </h4>
           <p style={{ display: "inline" }}> 2022</p>
           <p className="mt-2">
-            Proyecto de refuncionalización de Cocina en vivienda premoldeada,
-            donde se buscaba mejorar la distribución de los artefactos y
-            circulaciones.
+            El proyecto consistió en la refuncionalización de la cocina de una
+            vivienda premoldeada, optimizando la distribución de artefactos y
+            circulaciones para mejorar tanto la funcionalidad como la estética
+            del espacio. Con un presupuesto ajustado, se incorporó mobiliario
+            estándar y una mesada de piedra regional, equilibrando calidad y
+            costos al evitar gastos adicionales en transportes y muebles a medida
           </p>
         </div>
 
@@ -135,24 +205,7 @@ function Independiente() {
             Ampliación ASOEM{" "}
           </h4>
           <p style={{ display: "inline" }}>2019</p>
-          <p className="mt-2">
-            El proyecto consistió en la reestructuración y ampliación de la sede
-            de la Mutual optimizando su funcionalidad y servicios.
-          </p>
-          <p>
-            Se reorganizó el sector administrativo en un bloque de dos niveles,
-            integrando áreas de trabajo, sala de reuniones y atención al
-            público.
-          </p>
-          <p>
-            Para el salón de fiestas, se diseñaron un nuevo ingreso, baños
-            diferenciados y la conexión con una cocina para catering.
-          </p>
-          <p>
-            Además, se incorporó un anexo destinado a la capacitación de socios,
-            con recepción, dos aulas y baños, distribuidos en dos niveles y con
-            ingreso compartido con el salón.
-          </p>
+          {renderText2()}
         </div>
 
         <div className="carfree03">
@@ -177,17 +230,25 @@ function Independiente() {
             Ampliación Casa A²{" "}
           </h4>
           <p style={{ display: "inline" }}> 2024</p>
-          <p className="mt-2">
-            El proyecto contempló la ampliación de una vivienda con la
-            incorporación de un dormitorio con vestidor, un lavadero y un baño.
-          </p>
-          <p>
-            Se desarrollaron diversas propuestas para el cliente, y una vez
-            definida la opción final, se elaboraron los documentos planimétricos
-            necesarios para su ejecución.
-          </p>
+          {renderText()}
         </div>
-
+        <div className="planosAgu">
+          <Carousel data-bs-theme="dark">
+            {aguplanoImages.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img
+                  className="d-block w-100"
+                  src={image.src}
+                  alt={image.alt}
+                  onClick={() =>
+                    handleImageClick(aguplanoImages, aguplanoImagesHD, index)
+                  }
+                  style={{ cursor: "pointer" }}
+                />
+              </Carousel.Item>
+            ))}
+          </Carousel>
+        </div>
         <div className="carfree04">
           <Carousel>
             {aguImages.map((image, index) => (

@@ -34,6 +34,10 @@ const jfImages = importImages(
 const aguImages = importImages(
   require.context("../img/freelance/Agu", false, /\.(webp|jpg|png)$/)
 );
+const aguplanoImages = importImages(
+  require.context("../img/freelance/Agu/planos", false, /\.(webp|jpg|png)$/)
+);
+
 const mcImages = importImages(
   require.context("../img/freelance/San Javier", false, /\.(webp|jpg|png)$/)
 );
@@ -66,17 +70,18 @@ const jfImagesHD = importImages(
 const aguImagesHD = importImages(
   require.context("../img/freelance/Agu/hd", false, /\.(webp|jpg|png)$/)
 );
+const aguplanoImagesHD = importImages(
+  require.context("../img/freelance/Agu/planos/hd", false, /\.(webp|jpg|png)$/)
+);
 const mcImagesHD = importImages(
   require.context("../img/freelance/San Javier/hd", false, /\.(webp|jpg|png)$/)
 );
 const cpImagesHD = importImages(
   require.context("../img/concursos/cp/hd", false, /\.(webp|jpg|png)$/)
 );
-
 const eeImagesHD = importImages(
   require.context("../img/concursos/ee/hd", false, /\.(webp|jpg|png)$/)
 );
-
 const rukaImagesHD = importImages(
   require.context("../img/empleado/ruka/hd", false, /\.(webp|jpg|png)$/)
 );
@@ -99,6 +104,8 @@ export {
   jfImagesHD,
   aguImages,
   aguImagesHD,
+  aguplanoImages,
+  aguplanoImagesHD,
   mcImages,
   mcImagesHD,
   cpImages,
