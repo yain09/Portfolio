@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.d871f678.css",
-    "main.js": "/Portfolio/static/js/main.ea79fe8a.js",
+    "main.css": "/Portfolio/static/css/main.744f03c8.css",
+    "main.js": "/Portfolio/static/js/main.bce0f3f2.js",
     "reactPlayerYouTube.js": "/Portfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js",
     "reactPlayerSoundCloud.js": "/Portfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js",
     "reactPlayerVimeo.js": "/Portfolio/static/js/reactPlayerVimeo.6f023723.chunk.js",
@@ -83,12 +83,15 @@
     "static/media/ruka02.webp": "/Portfolio/static/media/ruka02.02afab2135a8eefe2517.webp",
     "static/media/gm03.jpg": "/Portfolio/static/media/gm03.74fa0cbfbe5fa66676b1.jpg",
     "static/media/mitre07.webp": "/Portfolio/static/media/mitre07.114173138e8f099e1b56.webp",
+    "static/media/alt02.png": "/Portfolio/static/media/alt02.90d9d7d276dc03c978f2.png",
     "static/media/vs01.webp": "/Portfolio/static/media/vs01.b37abcb5aaf294c21734.webp",
+    "static/media/alt03.png": "/Portfolio/static/media/alt03.a3852f3a4da57c6949d2.png",
     "static/media/jf07.webp": "/Portfolio/static/media/jf07.a20bff878659ed9befa8.webp",
     "static/media/jf01.webp": "/Portfolio/static/media/jf01.05f8a44d643e8d2f6945.webp",
     "static/media/sj02.jpg": "/Portfolio/static/media/sj02.5061a4b093518e5b5684.jpg",
     "static/media/ruka08.webp": "/Portfolio/static/media/ruka08.1eeb5ffbfd1f8888533e.webp",
     "static/media/agu02.webp": "/Portfolio/static/media/agu02.a31d3940139bd9d309c2.webp",
+    "static/media/alt01.png": "/Portfolio/static/media/alt01.268f13e618aa482123fc.png",
     "static/media/mitre02.webp": "/Portfolio/static/media/mitre02.01dc659aa8c1c60c0747.webp",
     "static/media/mitre05.webp": "/Portfolio/static/media/mitre05.c5a3879a499aa7363752.webp",
     "static/media/mitre03.webp": "/Portfolio/static/media/mitre03.93ffdffed0130cc60f21.webp",
@@ -123,6 +126,8 @@
     "static/media/gm10.webp": "/Portfolio/static/media/gm10.10af15628246979b3a7c.webp",
     "static/media/mitre01.webp": "/Portfolio/static/media/mitre01.6b22a1920c0afa2cd844.webp",
     "static/media/gm07.webp": "/Portfolio/static/media/gm07.ea07e7091565a13c96a8.webp",
+    "static/media/alt03.jpg": "/Portfolio/static/media/alt03.ebb5eba1ea0e01c94fa1.jpg",
+    "static/media/alt02.jpg": "/Portfolio/static/media/alt02.528501def540adac5a37.jpg",
     "static/media/mc00c.webp": "/Portfolio/static/media/mc00c.3526df8f8ec4ce5eb484.webp",
     "static/media/jf03.webp": "/Portfolio/static/media/jf03.952ac0e48aea464f4afa.webp",
     "static/media/ruka11.webp": "/Portfolio/static/media/ruka11.f5b2df0622f72c804663.webp",
@@ -130,6 +135,7 @@
     "static/media/vs02.webp": "/Portfolio/static/media/vs02.8a342bf693253924523e.webp",
     "static/media/gm03.webp": "/Portfolio/static/media/gm03.b477092fcda130caa2cd.webp",
     "static/media/ruka03.webp": "/Portfolio/static/media/ruka03.00d6c88ffe84e0b4b817.webp",
+    "static/media/alt01.jpg": "/Portfolio/static/media/alt01.7b81b0e6045916132436.jpg",
     "static/media/sj03.webp": "/Portfolio/static/media/sj03.c5cdd19e28552a9e9c19.webp",
     "static/media/sj01.webp": "/Portfolio/static/media/sj01.c7db8d8253f556e0c08d.webp",
     "static/media/empleado.jpg": "/Portfolio/static/media/empleado.70b35c9dc45a6e15a81e.jpg",
@@ -163,8 +169,8 @@
     "static/media/mc00.webp": "/Portfolio/static/media/mc00.88c908e48c4bf367420e.webp",
     "static/media/dev.webp": "/Portfolio/static/media/dev.71b1f5cee611a9a5455e.webp",
     "index.html": "/Portfolio/index.html",
-    "main.d871f678.css.map": "/Portfolio/static/css/main.d871f678.css.map",
-    "main.ea79fe8a.js.map": "/Portfolio/static/js/main.ea79fe8a.js.map",
+    "main.744f03c8.css.map": "/Portfolio/static/css/main.744f03c8.css.map",
+    "main.bce0f3f2.js.map": "/Portfolio/static/js/main.bce0f3f2.js.map",
     "reactPlayerYouTube.1ea34014.chunk.js.map": "/Portfolio/static/js/reactPlayerYouTube.1ea34014.chunk.js.map",
     "reactPlayerSoundCloud.cd68a6f2.chunk.js.map": "/Portfolio/static/js/reactPlayerSoundCloud.cd68a6f2.chunk.js.map",
     "reactPlayerVimeo.6f023723.chunk.js.map": "/Portfolio/static/js/reactPlayerVimeo.6f023723.chunk.js.map",
@@ -182,7 +188,7 @@
     "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d871f678.css",
-    "static/js/main.ea79fe8a.js"
+    "static/css/main.744f03c8.css",
+    "static/js/main.bce0f3f2.js"
   ]
 }
