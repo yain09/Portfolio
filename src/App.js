@@ -7,6 +7,10 @@ import { Route, Routes } from "react-router";
 import Empleado from "./scripts/Empleado";
 import Independiente from "./scripts/Independiente";
 import Concurso from "./scripts/Concurso";
+import ReactGA from "react-ga";
+
+ReactGA.initialize("G-ZZE0RB25R3");  // Reemplaza con tu ID
+ReactGA.pageview(window.location.pathname + window.location.search);
 const Home = () => (
   <>
     <Arquitectura />
