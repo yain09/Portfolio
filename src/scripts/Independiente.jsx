@@ -174,12 +174,17 @@ function Independiente() {
           </h4>
           <p style={{ display: "inline" }}> 2022</p>
           <p className="mt-2">
-            El proyecto consistió en la refuncionalización de la cocina de una
-            vivienda premoldeada, optimizando la distribución de artefactos y
-            circulaciones para mejorar tanto la funcionalidad como la estética
-            del espacio. Con un presupuesto ajustado, se incorporó mobiliario
-            estándar y una mesada de piedra regional, equilibrando calidad y
-            costos al evitar gastos adicionales en transportes y muebles a medida
+            El proyecto abordó la reestructuración de la cocina de una
+            vivienda premoldeada, integrada en un espacio compartido con el
+            living-comedor, su correcta resolución no solo
+            mejoraba la funcionalidad de la cocina, sino también el flujo y
+            funcionamiento general de la vivienda.
+          </p>
+          <p>
+            Enfocado en la eficiencia y economía, se seleccionaron
+            mobiliario estándar y una mesada de piedra regional, logrando una
+            solución estética y funcional. Estas decisiones permitieron reducir
+            costos, manteniendo la calidad requerida.
           </p>
         </div>
 
