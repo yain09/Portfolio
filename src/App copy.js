@@ -75,7 +75,7 @@ function App() {
     const loadResources = async () => {
       try {
         // Espera a que los recursos estén listos (simula API, imágenes, etc.)
-        await new Promise((resolve) => setTimeout(resolve, 0)); // Quita este `setTimeout` si no necesitas simular
+        await new Promise((resolve) => setTimeout(resolve, 2000)); // Quita este `setTimeout` si no necesitas simular
       } catch (error) {
         console.error("Error cargando recursos:", error);
       } finally {
