@@ -41,7 +41,7 @@ function BentoLayout() {
         <Link to="/model" className="t3 p-0 m-0">
           <div className="image-container p-0 m-0">
             <img src={homeImages.maqueta3d} alt="" className="image" />
-            <div className="pieFoto">Modelado 3D / Render</div>
+            <div className="pieFoto">Diseño Urbano</div>
           </div>
         </Link>
         <Link to="/freelance" className=" t4">
