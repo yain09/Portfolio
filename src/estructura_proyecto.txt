@@ -1,0 +1,23 @@
+src\
+|   scripts\
+|   |   - Arquitectura.jsx
+|   |   - BentoLayout.jsx
+|   |   - BlockB.jsx
+|   |   - Cabecera.jsx
+|   |   - Card.jsx
+|   |   - Concurso.jsx
+|   |   - Empleado.jsx
+|   |   - ImageModal.jsx
+|   |   - imagenes.js
+|   |   - Independiente.jsx
+|   |   - Loader.jsx
+|   |   - Model3D.jsx
+|   - App.css
+|   - App.js
+|   - App.test.js
+|   - estructura_proyecto.txt
+|   - index.css
+|   - index.js
+|   - logo.svg
+|   - reportWebVitals.js
+|   - setupTests.js

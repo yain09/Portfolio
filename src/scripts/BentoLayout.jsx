@@ -1,14 +1,34 @@
 import "../style/grid.scss";
+import { useState, useEffect } from "react";
 import { Container, Image } from "react-bootstrap";
 import { homeImages } from "./imagenes";
 import { Link } from "react-router-dom";
 function BentoLayout() {
+  const [screenSize, setScreenSize] = useState(null);
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+  const getTextStyle = () => {
+    if (screenSize < 375) {
+      return { fontSize: "11px", lineHeight:"110%" };
+    } else {
+      return { fontSize: "13px" };
+    }
+  };
+
   return (
     <>
       <Container className="gridHome">
         <div className="t1 ">
           {" "}
-          <p className="mb-0">
+          <p className="mb-0" style={getTextStyle()}>
             Apasionado por la tecnología, el diseño y la arquitectura. Me
             considero una persona proactiva, abierta a nuevos retos. La
             exploración a través de diversos ámbitos del diseño y la
@@ -51,7 +71,10 @@ function BentoLayout() {
               rel="noopener noreferrer"
             >
               <img src={homeImages.dev} alt="desarrollo" />{" "}
-              <div className="pieFoto" style={{ color: "white", textShadow: "0px 0px 3px black" }}>
+              <div
+                className="pieFoto"
+                style={{ color: "white", textShadow: "0px 0px 3px black" }}
+              >
                 web dev
               </div>
             </a>

@@ -1,43 +1,24 @@
-import React, { useState, useEffect } from "react";
+// src/scripts/ImageModal.jsx
+import React, { useState, useEffect, useRef } from "react";
 import { Modal, Carousel } from "react-bootstrap";
 
-const ImageModal = ({
-  show,
-  onClose,
-  images,
-  imagesHD,
-  currentIndex,
-  onSelect,
-}) => {
-  const [activeImages, setActiveImages] = useState([]); // Imágenes actuales (HD o estándar)
-  const [styles, setStyles] = useState([]); // Estilos dinámicos para las imágenes
-  const [iconColor, setIconColor] = useState("white"); // Blanco por defecto
-
-  // Actualiza las imágenes activas al abrir el modal
-  useEffect(() => {
-    if (show) {
-      const selectedImages = imagesHD?.length > 0 ? imagesHD : images;
-      setActiveImages(selectedImages);
-
-      // Determina el color del ícono en función del contraste con el fondo
-      const backgroundColor = window.getComputedStyle(
-        document.body
-      ).backgroundColor;
-      setIconColor(getContrastColor(backgroundColor));
-    }
-  }, [show, images, imagesHD]);
+const ImageModal = ({ show, onClose, images, imagesHD, currentIndex, onSelect }) => {
+  const [activeImages, setActiveImages] = useState([]);
+  const [styles, setStyles] = useState([]);
+  const [iconColor, setIconColor] = useState("white");
+  const activeImagesRef = useRef([]);
 
   // Calcula el color basado en el contraste
   const getContrastColor = (backgroundColor) => {
     const rgb = backgroundColor.match(/\d+/g).map(Number);
     const brightness = (rgb[0] * 299 + rgb[1] * 587 + rgb[2] * 114) / 1000;
-    return brightness > 128 ? "black" : "white"; // Negro si es claro, blanco si es oscuro
+    return brightness > 128 ? "black" : "white";
   };
 
   // Manejo del tamaño de las imágenes
-  const handleImageLoad = (index) => {
+  const handleImageLoad = (imgSrc, index) => {
     const img = new Image();
-    img.src = activeImages[index]?.src;
+    img.src = imgSrc;
 
     img.onload = () => {
       const aspectRatio = img.naturalWidth / img.naturalHeight;
@@ -45,8 +26,8 @@ const ImageModal = ({
 
       const newStyle =
         aspectRatio > viewportRatio
-          ? { width: "80vw", height: "auto", objectFit: "contain" } // Limitar por ancho
-          : { height: "80vh", width: "auto", objectFit: "contain" }; // Limitar por alto
+          ? { width: "80vw", height: "auto", objectFit: "contain" }
+          : { height: "80vh", width: "auto", objectFit: "contain" };
 
       setStyles((prevStyles) => {
         const updatedStyles = [...prevStyles];
@@ -56,12 +37,28 @@ const ImageModal = ({
     };
   };
 
-  // Recalcular estilos al redimensionar la ventana
+  // Actualiza las imágenes activas y color de ícono al mostrar el modal
   useEffect(() => {
     if (show) {
+      const selectedImages = imagesHD?.length ? imagesHD : images;
+      setActiveImages(selectedImages);
+      activeImagesRef.current = selectedImages;
+
+      const backgroundColor = window.getComputedStyle(document.body).backgroundColor;
+      setIconColor(getContrastColor(backgroundColor));
+    }
+  }, [show, images, imagesHD]);
+
+  // Recalcula los estilos al redimensionar la ventana
+  useEffect(() => {
+    if (show && activeImages.length) {
       const handleResize = () => {
-        activeImages.forEach((_, index) => handleImageLoad(index));
+        activeImagesRef.current.forEach((image, index) =>
+          handleImageLoad(image.src, index)
+        );
       };
+
+      handleResize(); // Inicial
       window.addEventListener("resize", handleResize);
 
       return () => {
@@ -76,56 +73,38 @@ const ImageModal = ({
         activeIndex={currentIndex}
         onSelect={onSelect}
         prevIcon={
-          <span className="nav-icons">
+          <span className="nav-icons" style={{ color: iconColor }} aria-label="Previous">
             <svg
               viewBox="0 0 24 24"
               className="nav-prev"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                {" "}
-                <path
-                  d="M14 2L20 12L14 22"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>{" "}
-              </g>
+              <path
+                d="M14 2L20 12L14 22"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
           </span>
         }
         nextIcon={
-          <span className="nav-icons">
+          <span className="nav-icons" style={{ color: iconColor }} aria-label="Next">
             <svg
               viewBox="0 0 24 24"
               className="nav-next"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                {" "}
-                <path
-                  d="M14 2L20 12L14 22"
-                  stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>{" "}
-              </g>
+              <path
+                d="M14 2L20 12L14 22"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
           </span>
         }
@@ -134,8 +113,8 @@ const ImageModal = ({
           <Carousel.Item key={index}>
             <img
               src={image.src}
-              alt={image.alt}
-              onLoad={() => handleImageLoad(index)}
+              alt={image.alt || `Slide ${index + 1}`}
+              onLoad={() => handleImageLoad(image.src, index)}
               style={
                 styles[index] || {
                   width: "auto",

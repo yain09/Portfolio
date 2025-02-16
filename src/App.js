@@ -46,71 +46,66 @@ const Concursos = () => (
   </>
 );
 
-const TrackPageView = () => {
-  const location = useLocation();
-
-  useEffect(() => {
-    window.gtag("config", "G-ZZE0RB25R3", {
-      page_path: location.pathname,
-    });
-  }, [location]);
-
-  return null;
-};
-
 function App() {
-  const [isLoading, setIsLoading] = useState(true); // Estado de carga inicial
+  const [isLoading, setIsLoading] = useState(true); // Control de carga inicial
   const location = useLocation(); // Detectar cambios en la ruta
 
   useEffect(() => {
-    // Inicializa Google Analytics
-    ReactGA.initialize("G-ZZE0RB25R3");
+    ReactGA.initialize("G-ZZE0RB25R3"); // Inicializa Google Analytics
   }, []);
 
   useEffect(() => {
-    // Cambia a true cada vez que cambia la ruta
+    // Cambia a true cada vez que cambie la ruta
     setIsLoading(true);
 
-    // Simular carga de recursos específicos (por ejemplo, imágenes, modelos)
-    const loadResources = async () => {
-      try {
-        // Espera a que los recursos estén listos (simula API, imágenes, etc.)
-        await new Promise((resolve) => setTimeout(resolve, 0)); // Quita este `setTimeout` si no necesitas simular
-      } catch (error) {
-        console.error("Error cargando recursos:", error);
-      } finally {
-        setIsLoading(false); // Indica que ha terminado de cargar
+    // Cargar elementos clave
+    const imagesToLoad = document.querySelectorAll("img"); // Todas las imágenes de la página
+    const totalElements = imagesToLoad.length; // Número de elementos a cargar
+    let loadedCount = 0; // Contador de elementos cargados
+
+    const checkIfAllLoaded = () => {
+      loadedCount++;
+      if (loadedCount === totalElements) {
+        setIsLoading(false); // Una vez cargado todo, ocultar el loader
       }
     };
 
-    loadResources();
-  }, [location]);
+    // Agrega listeners para cada imagen
+    imagesToLoad.forEach((img) => {
+      if (img.complete) {
+        checkIfAllLoaded(); // Imagen ya estaba cargada
+      } else {
+        img.addEventListener("load", checkIfAllLoaded); // Espera a que cargue
+        img.addEventListener("error", checkIfAllLoaded); // Maneja errores (para no bloquear)
+      }
+    });
+
+    // Fallback en caso de que no haya elementos que cargar
+    if (totalElements === 0) {
+      setIsLoading(false);
+    }
+  }, [location]); // Repetir la lógica cada vez que cambie la ruta
 
   if (isLoading) {
-    // Mostrar la pantalla de carga mientras `isLoading` es verdadero
+    // Mostrar pantalla de carga mientras se cargan los elementos
     return (
-      <>
-        <div className="App">
-          <Cabecera />
-          <Loader />
-        </div>
-      </>
+      <div className="App">
+        <Cabecera />
+        <Loader />
+      </div>
     );
   }
 
   return (
     <div className="App">
-      <TrackPageView />
       <Cabecera />
-      <div className="">
-        <Routes>
-          <Route path="/Portfolio" element={<Home />} />
-          <Route path="/model" element={<Model />} />
-          <Route path="/freelance" element={<Freelance />} />
-          <Route path="/employee" element={<Employee />} />
-          <Route path="/concursos" element={<Concursos />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/Portfolio" element={<Home />} />
+        <Route path="/model" element={<Model />} />
+        <Route path="/freelance" element={<Freelance />} />
+        <Route path="/employee" element={<Employee />} />
+        <Route path="/concursos" element={<Concursos />} />
+      </Routes>
     </div>
   );
 }

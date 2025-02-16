@@ -1,3 +1,4 @@
+// src/scripts/Cabecera.jsx
 import {
   Modal,
   Navbar,
@@ -10,11 +11,10 @@ import {
 } from "react-bootstrap";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import yo from "../img/home/yaingodoy.webp";
 import {
   IoMailUnreadOutline,
-  IoCallOutline,
   IoLocationOutline,
   IoLogoLinkedin,
   IoHomeOutline,
@@ -22,9 +22,49 @@ import {
 
 function Cabecera() {
   const [show, setShow] = useState(false);
+  const [screenSize, setScreenSize] = useState(null);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+
+  const getModalStyle = () => {
+    if (screenSize < 375) {
+      return {
+        backgroundColor: "white",
+        fontSize: "12px",
+        borderRadius: "10px",
+        width: "100%",
+        minWidth: "95vw",
+      };
+    } else if (screenSize >= 375 && screenSize < 420) {
+      return {
+        backgroundColor: "white",
+        fontSize: "14px",
+        borderRadius: "10px",
+        width: "100%",
+        minWidth: "95vw",
+      };
+    } else {
+      return {
+        backgroundColor: "white",
+        borderRadius: "10px",
+        width: "100%",
+        minWidth: "400px",
+      };
+    }
+  };
 
   return (
     <Navbar bg="black" data-bs-theme="dark" style={{ height: "50px" }}>
@@ -106,7 +146,7 @@ function Cabecera() {
               </Nav.Link>
 
               <Modal show={show} onHide={handleClose} animation={false}>
-                <div style={{ backgroundColor: "white", borderRadius: "10px",width:"100%", minWidth:"400px" }}>
+                <div style={getModalStyle()}>
                   <Modal.Header closeButton>
                     <Modal.Title
                       style={{ fontFamily: "Montserrat", fontWeight: "300" }}
@@ -114,49 +154,54 @@ function Cabecera() {
                       YAIN GODOY
                     </Modal.Title>
                   </Modal.Header>
-                  <Modal.Body >
+                  <Modal.Body>
                     <Row className="w-100 align-items-center m-0">
                       <Col xs={8} className="p-0">
-                        <div className="pb-3">
-                          <p
-                            className="icon"
-                            style={{ display: "inline", paddingBottom: "10px" }}
-                          >
-                            <IoCallOutline style={{ marginRight: "7px" }} />
-                          </p>
-                          <p style={{ display: "inline" }}>+54 9 342 4473227</p>
-                        </div>
-                        <div className="pb-3">
-                          <p className="icon" style={{ display: "inline" }}>
-                            {" "}
-                            <IoMailUnreadOutline
-                              style={{ marginRight: "7px" }}
-                            />{" "}
-                          </p>
-                          <p style={{ display: "inline" }}>
-                            yaingodoy@gmail.com
-                          </p>
+                        <div>
+                          <div className="pb-3">
+                            <p
+                              className="icon"
+                              style={{ display: "inline", width: "24px" }}
+                            >
+                              {" "}
+                              <IoMailUnreadOutline
+                                size={24}
+                                style={{ marginRight: "7px" }}
+                              />{" "}
+                            </p>
+                            <p style={{ display: "inline" }}>
+                              yaingodoy@gmail.com
+                            </p>
+                          </div>
+                          <div className="d-flex">
+                            <p className="icon">
+                              <IoLocationOutline
+                                size={24}
+                                style={{ marginRight: "7px" }}
+                              />
+                            </p>
+                            <p>
+                              Santo Tomé, Santa Fe
+                              <br />
+                              Argentina
+                            </p>
+                          </div>
                         </div>
                         <div className="d-flex">
-                          <p className="icon">
-                            <IoLocationOutline style={{ marginRight: "7px" }} />
-                          </p>
-                          <p>
-                            Santo Tomé, Santa Fe
-                            <br />
-                            Argentina
-                          </p>
+                          <IoLogoLinkedin
+                            size={24}
+                            style={{ marginRight: "7px" }}
+                          />{" "}
+                          <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.linkedin.com/in/yain-godoy/"
+                            style={{ color: "black" }}
+                          >
+                            {" "}
+                            in/yain-godoy{" "}
+                          </a>
                         </div>
-                        <IoLogoLinkedin style={{ fontSize: "1.5rem" }} />{" "}
-                        <a
-                          target="_blank"
-                          rel="noreferrer"
-                          href="https://www.linkedin.com/in/yain-godoy/"
-                          style={{ color: "black" }}
-                        >
-                          {" "}
-                          in/yain-godoy{" "}
-                        </a>
                       </Col>
                       <Col xs={4} className="p-0">
                         <img src={yo} alt="" className="yo" />
